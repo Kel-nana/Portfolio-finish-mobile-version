@@ -1,3 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
 body {
   margin: 0;
+  width: 375px;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 34%;
+  overflow-y: scroll;
+}
+
+main {
+  width: 327px;
+  height: 552px;
+  border-radius: 16px;
+  background-color: white;
+  border: 1px solid #dfe1e6;
+  margin-left: 22px;
+  margin-top: 16px;
+  margin-bottom: 88px;
+}
+
+.image-tonic {
+  width: 295px;
+  height: 220px;
+  margin: 16px 16px 0 16px;
+}
+
+.tonic-title {
+  width: 295px;
+  height: 36px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  margin: 16px;
+  color: #172b4d;
+  margin-left: 16px;
+  line-height: 44px;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 16px;
+  gap: 12px;
+  height: 36px;
+  width: 295px;
+}
+
+.counter span {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+  line-height: 16px;
+}
+
+.counter li {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 13px;
+  list-style-type: none;
+  color: #7a869a;
+}
+
+.img-circle {
+  margin-right: 12px;
+}
+
+.tonic-para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 295px;
+  height: 76px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-left: 16px;
+}
+
+.list-skills {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+  gap: 8px;
+  width: 203px;
+  height: 24px;
+  margin-left: 16px;
+}
+
+.list-skills li {
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background: #ebebff;
+  border-radius: 8px;
+  padding: 4px 12px;
+}
+
+.see-pro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 124px;
+  height: 48px;
+  margin-left: 25px;
+  margin-top: 35px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  border-radius: 8px;
+  border: 1px solid #6070ff;
 }
