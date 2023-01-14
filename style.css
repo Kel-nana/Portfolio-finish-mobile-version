@@ -3,7 +3,7 @@
 body {
   margin: 0;
   width: 375px;
-  height: 200px;
+  height: 2002px;
   align-items: center;
   justify-content: center;
   margin-left: 34%;
@@ -12,15 +12,45 @@ body {
   overflow-y: scroll;
 }
 
-main {
+section {
   width: 327px;
   height: 552px;
   border-radius: 16px;
   background-color: white;
   border: 1px solid #dfe1e6;
-  margin-left: 22px;
   margin-top: 16px;
   margin-bottom: 88px;
+}
+
+main.container {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-columns: 375px;
+  grid-template-rows: 640px 640px 640px 640px;
+  border: 2px solid white;
+  border-radius: 20px;
+  grid-template-areas:
+    "tonic1"
+    "tonic2"
+    "tonic3"
+    "tonic4";
+}
+
+.tonic1 {
+  grid-area: "tonic1";
+}
+
+.tonic2 {
+  grid-area: "tonic2";
+}
+
+.tonic3 {
+  grid-area: "tonic3";
+}
+
+.tonic4 {
+  grid-area: "tonic4";
 }
 
 .image-tonic {
