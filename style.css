@@ -69,6 +69,7 @@ main {
 .footer-icons {
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   width: 190px;
   height: 30px;
   margin-left: 24px;
