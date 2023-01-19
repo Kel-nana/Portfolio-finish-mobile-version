@@ -123,7 +123,6 @@ main.container {
   flex-direction: row;
   align-items: center;
   list-style-type: none;
-  /* gap: 8px; */
   width: 203px;
   height: 24px;
   margin-left: 16px;
