@@ -3,11 +3,77 @@
 body {
   margin: 0;
   width: 375px;
-  height: 3000px;
+  height: 4769px;
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
+  border: 1px solid gray;
   overflow-y: scroll;
+}
+
+header.logo-menu {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  width: 375px;
+  height: 46px;
+  top: 0;
+}
+
+.logo a {
+  margin-left: 12px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+.bars {
+  margin-right: 24px;
+  color: #6070ff;
+  height: 24px;
+  width: 24px;
+  margin-top: 8px;
+}
+
+.main-container {
+  margin-bottom: 128px;
+  width: 375px;
+  height: 718px;
+  background-image: url("./images/header-shapes\ mobile\ \(2\).svg");
+  background-repeat: no-repeat;
+  background-size: 375px 718px;
+  background-color: white;
+}
+
+.title-lp {
+  display: flex;
+  align-items: center;
+  width: 327px;
+  height: 150px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #172b4d;
+  margin-left: 24px;
+  padding-top: 144px;
+  line-height: 52px;
+}
+
+.titletext p {
+  display: flex;
+  align-items: center;
+  width: 337px;
+  height: 146px;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #133453;
+  margin-left: 24px;
+  margin-top: 12px;
+  line-height: 24px;
 }
 
 .tonic1,
@@ -29,7 +95,6 @@ main.container {
   justify-items: center;
   grid-template-columns: 375px;
   grid-template-rows: 640px 640px 640px 640px;
-  border: 2px solid rgb(148, 43, 43);
   border-radius: 20px;
   grid-template-areas:
     "tonic1"
@@ -213,18 +278,11 @@ main.container {
 .about_section {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   width: 375px;
   height: 1125px;
-  border: 5px solid rgb(23, 240, 51);
-
   background-image: url("./images/aboutbackground.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-color: #e5e5e5; */
-  /* margin-left: 22px; */
-  /* margin-top: 16px;
-  margin-bottom: 88px; */
   margin-top: 26px;
   margin-bottom: 12px;
 }
@@ -263,7 +321,6 @@ main.container {
   display: flex;
   justify-content: flex-start;
   width: 127px;
-  border: 1px solid lime;
   height: 24px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
@@ -278,7 +335,6 @@ main.container {
   align-items: center;
   width: 190px;
   height: 30px;
-  /* margin-left: 24px; */
   margin-top: 15px;
 }
 
@@ -304,7 +360,6 @@ h2 .language {
   line-height: 24px;
   color: black;
   margin-left: 24px;
-  /* margin-bottom: 36px; */
 }
 
 .list-skills-about ul {
