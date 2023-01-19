@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Hello_Microverse_Project</b></h3>
+  <h3><b>Portfolio finish mobile version</b></h3>
 
 </div>
 
@@ -41,6 +41,7 @@ After you're finished please remove all the comments and instructions!
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -48,15 +49,16 @@ After you're finished please remove all the comments and instructions!
   - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello_Microverse_Project] <a name="about-project"></a>
+# 📖 [Portfolio Setup and Mobile first Project] <a name="about-project"></a>
 
-Hello_Microverse_Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
+Portfolio finish mobile version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -66,123 +68,65 @@ Hello_Microverse_Project is a Its a project meant to master my skills in version
 - Linters
 - Git & Github
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[click effect on button]**
+- **[hover effect on button]**
+- **[key_feature_3]**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Getting Started
 
-<!-- LIVE DEMO -->
+**This is an example of how you may give instructions on setting up your project locally.**
 
-## 💻 Getting Started <a name="getting-started"></a>
-
-He/she could through my project see the mistakes I made and hopefully learn.
-
-To get a local copy up and running, follow these steps.
+To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-In order to run this project you need:
 
 - Git in your local machine
 - Code editor (VS code, Atom, etc)
 - Terminal
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
-
 ### Setup
-
-Clone this repository to your desired folder:
 
 - git clone git@github.com:Kel-nana/Hello.git
 - cd Hello
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
-
---->
-
-### Install
-
-npm init -y
-npm install --save-dev hint@7.x
-npx hint .
-npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-npx stylelint "\*_/_.{css,scss}"
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
 
 ### Usage
 
-To run the project, execute the following command:
-
-Add the changes you want and feel free to use in your project!
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+- Add the changes you want and feel free to use in your project!
 
 ### Run tests
 
-To run tests, run the following command:
+- Check that all the tests are correctly passed🤝
 
-git test
-git status
+### Merge
 
-<!--
-Example command:
+- Merge it so we can all see your work!!🤝
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
+## Authors
 
 👤 **Author1**
 
 - GitHub: [@Kel-nana](https://github.com/Kel-nana)
 - Linkedin: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
+  <<<<<<< HEAD
 - Twitter: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Describe 1 - 3 features you will add to the project.
+
+- [ ] **[button functionality]**
+- [ ] **[drop down arrow functionality]**
 
 <!-- CONTRIBUTING -->
 
@@ -239,4 +183,16 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+# <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse documentation, teammates, reviewers and myself ⭐️
