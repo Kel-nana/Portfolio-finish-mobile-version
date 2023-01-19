@@ -74,7 +74,6 @@ main.container {
   flex-direction: row;
   align-items: center;
   margin-left: 16px;
-  gap: 12px;
   height: 36px;
   width: 295px;
 }
@@ -87,16 +86,21 @@ main.container {
   line-height: 16px;
 }
 
-.counter li {
+.counter ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 600;
   font-size: 13px;
   list-style-type: none;
   color: #7a869a;
+  padding-inline-start: 0;
 }
 
 .img-circle {
   margin-right: 12px;
+  margin-left: 12px;
 }
 
 .tonic-para {
@@ -119,21 +123,35 @@ main.container {
   flex-direction: row;
   align-items: center;
   list-style-type: none;
-  gap: 8px;
+  /* gap: 8px; */
   width: 203px;
   height: 24px;
   margin-left: 16px;
+  margin-top: 12px;
 }
 
-.list-skills li {
+.list-skills ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  width: 203px;
+  height: 24px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.list-skills ul li {
   background: #ebebff;
   border-radius: 8px;
   padding: 4px 12px;
+  margin-right: 8px;
 }
 
 .see-pro {
@@ -152,4 +170,38 @@ main.container {
   color: #396df2;
   border-radius: 8px;
   border: 1px solid #6070ff;
+}
+
+.see-pro:visited {
+  background-color: white;
+  color: #5e6c84;
+  border: 1px solid #6070ff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500px;
+  border-radius: 8px;
+  line-height: 24px;
+  padding: 12px;
+  box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.see-pro:hover {
+  background-color: #6070ff;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500px;
+  border-radius: 8px;
+  padding: 12px;
+  line-height: 24px;
+  box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.see-pro:focus {
+  background-color: #2230d2;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 500px;
+  border-radius: 8px;
+  line-height: 24px;
+  padding: 12px;
+  box-shadow: 8px 16px rgba(64, 83, 252, 0.24);
 }
