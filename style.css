@@ -221,6 +221,11 @@ main.container {
   margin-right: 8px;
 }
 
+#btn-get {
+  width: 162px;
+  height: 48px;
+}
+
 .see-pro {
   display: flex;
   flex-direction: row;
