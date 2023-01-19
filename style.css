@@ -6,9 +6,7 @@ body {
   height: 2002px;
   align-items: center;
   justify-content: center;
-  margin-left: 34%;
   background: #e5e5e5;
-  border: 1px solid #dfe1e6;
   overflow-y: scroll;
 }
 
