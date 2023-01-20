@@ -89,7 +89,7 @@ header.logo-menu {
   margin-bottom: 88px;
 }
 
-main.container {
+section .container {
   display: grid;
   align-items: center;
   justify-items: center;
