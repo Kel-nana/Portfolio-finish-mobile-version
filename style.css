@@ -188,22 +188,16 @@ section .container {
 }
 
 .list-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   list-style-type: none;
-  width: 203px;
+  width: 290px;
   height: 24px;
   margin-left: 16px;
   margin-top: 12px;
 }
 
 .list-skills ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   list-style: none;
-  width: 203px;
+  width: 290px;
   height: 24px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
@@ -218,8 +212,23 @@ section .container {
 .list-skills ul li {
   background: #ebebff;
   border-radius: 8px;
-  padding: 4px 12px;
+  padding: 4px 1px;
   margin-right: 8px;
+  float: left;
+  text-align: center;
+}
+
+.list-skills ul li:nth-child(1){
+  width: 53px;
+}
+
+.list-skills ul li:nth-child(2){
+  width: 45px;
+}
+
+.list-skills ul li:nth-child(3){
+  width: 114px;
+  margin-right: 0;
 }
 
 #btn-get {
