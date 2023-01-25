@@ -458,7 +458,6 @@ h2 .language {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  border: 1px solid red;
   margin-top: 0;
   margin-bottom: 87px;
 }
@@ -492,4 +491,10 @@ h2 .language {
 
 .submit-btn:hover {
   background: #2230d2;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
