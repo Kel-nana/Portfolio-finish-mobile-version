@@ -3,11 +3,10 @@
 body {
   margin: 0;
   width: 375px;
-  height: 5410px;
+  height: 4769px;
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
-  border: 1px solid gray;
   overflow-y: scroll;
 }
 
@@ -422,7 +421,8 @@ h2 .language {
   background-image: url("/images/contactformshapesmobile.svg"), url("/images/Contactme.svg");
   background-position: 153px 16px, 0 0;
   background-repeat: no-repeat;
-  height: 779px;
+  height: 787px;
+  padding-bottom: 70px;
 }
 
 .input-design,
@@ -446,8 +446,9 @@ h2 .language {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 360px;
+  height: 352px;
   margin-left: 0;
+  margin-bottom: 0;
 }
 
 .text-field p {
@@ -476,7 +477,7 @@ h2 .language {
 
 .input-field {
   width: 327px;
-  margin-bottom: 20px;
+  margin-bottom: 28px;
 }
 
 .textArea {
@@ -489,6 +490,7 @@ h2 .language {
 .submit-btn {
   margin-top: 0;
   margin-left: 0;
+  margin-bottom: 32px;
 }
 
 .submit-btn:hover {
@@ -501,4 +503,12 @@ fieldset {
   padding-top: 30px;
   border: 0;
   background-color: #fff;
+}
+
+.bottom_line {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 89px;
 }
