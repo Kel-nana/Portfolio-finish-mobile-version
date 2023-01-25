@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio finish mobile version </b></h3>
+  <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
 
 </div>
 
@@ -56,9 +56,9 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
 
-Portfolio finish mobile version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
+Portfolio: add a contact form and finish the mobile version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,8 +74,8 @@ Portfolio finish mobile version Project is a Its a project meant to master my sk
 
 > Describe between 1-3 key features of the application.
 
-- **[click effect on button]**
-- **[hover effect on button]**
+- **[Requarement to fill all empty form areas]**
+- **[contact form storage capability]**
 - **[key_feature_3]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -125,8 +125,8 @@ To get a local copy up and running follow these simple example steps.
 
 > Describe 1 - 3 features you will add to the project.
 
-- [ ] **[button functionality]**
-- [ ] **[links to lets connect icons]**
+- [ ] **[Add dropdrown menu functionality]**
+- [ ] **[Build the desktop version]**
 
 <!-- CONTRIBUTING -->
 
