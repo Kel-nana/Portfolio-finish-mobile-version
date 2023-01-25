@@ -3,7 +3,7 @@
 body {
   margin: 0;
   width: 375px;
-  height: 4769px;
+  height: 5410px;
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
@@ -291,7 +291,7 @@ section .container {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 26px;
-  margin-bottom: 12px;
+  margin-bottom: 0px;
 }
 
 .about {
@@ -413,6 +413,7 @@ h2 .language {
 
 /* ======CONTACT-ME-CSS====== */
 .contact-me {
+  margin-top: 113px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -496,5 +497,8 @@ h2 .language {
 fieldset {
   padding: 0;
   margin: 0;
+  padding-top: 30px;
   border: 0;
+  border: 1px solid lime;
+  background-color: #fff;
 }
