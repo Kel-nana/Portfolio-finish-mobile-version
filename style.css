@@ -454,14 +454,13 @@ h2 .language {
   color: white;
   height: 102px;
   text-align: center;
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-border: 1px solid red;
-margin-top: 0;
-margin-bottom: 87px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  border: 1px solid red;
+  margin-top: 0;
+  margin-bottom: 87px;
 }
 
 .text-field h2 {
