@@ -291,7 +291,7 @@ section .container {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 26px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .about {
@@ -499,6 +499,5 @@ fieldset {
   margin: 0;
   padding-top: 30px;
   border: 0;
-  border: 1px solid lime;
   background-color: #fff;
 }
