@@ -417,7 +417,7 @@ h2 .language {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/contact\ form\ shapes-mobile.svg"), url("/images/Contact\ me.svg");
+  background-image: url("/images/contactformshapesmobile.svg"), url("/images/Contactme.svg");
   background-position: 153px 16px, 0 0;
   background-repeat: no-repeat;
   height: 779px;
