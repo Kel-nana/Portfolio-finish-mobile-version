@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   width: 375px;
@@ -218,15 +222,15 @@ section .container {
   text-align: center;
 }
 
-.list-skills ul li:nth-child(1){
+.list-skills ul li:nth-child(1) {
   width: 53px;
 }
 
-.list-skills ul li:nth-child(2){
+.list-skills ul li:nth-child(2) {
   width: 45px;
 }
 
-.list-skills ul li:nth-child(3){
+.list-skills ul li:nth-child(3) {
   width: 114px;
   margin-right: 0;
 }
@@ -439,9 +443,8 @@ h2 .language {
   border-radius: 8px;
   width: 327px;
   height: 48px;
-  border-radius: 8px;
   margin-bottom: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -464,12 +467,12 @@ h2 .language {
 }
 
 .text-field h2 {
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #ffffff;
+  color: #fff;
   margin-top: 103px;
 }
 
@@ -491,4 +494,230 @@ h2 .language {
 
 .submit-btn:hover {
   background: #2230d2;
+}
+
+.header-desktop {
+  display: none;
+}
+
+.title-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    width: 90rem;
+    height: 5548px;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 1px solid gray;
+    overflow-y: scroll;
+  }
+
+  header.logo-menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 90rem;
+    height: 46px;
+    top: 0;
+  }
+
+  .logo a {
+    margin-left: 9.688rem;
+  }
+
+  .logo-menu nav {
+    display: none;
+  }
+
+  .header-desktop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9.063rem;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 2px solid lime;
+    color: #344563;
+    width: 259px;
+    height: 40px;
+  }
+
+  .header-desktop p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 40px;
+    padding: 10px, 12px, 10px, 12px;
+  }
+
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    border: 2px solid lime;
+    background-image: url("/images/HeaderBgDesktop.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: 1px solid red;
+    color: #344563;
+    width: 90rem;
+    height: 846px;
+    margin-top: 118px;
+  }
+
+  .title-lp {
+    display: none;
+  }
+
+  .title-desktop {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 57.5rem;
+    height: 122px;
+    border: 1px solid lime;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+
+  .titletext {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 57.5rem;
+    height: 98px;
+    border: 1px solid lime;
+  }
+
+  .titletext p {
+    display: flex;
+    width: 57.5rem;
+    height: 98px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    margin-left: 0;
+    color: #344563;
+  }
+
+  .connect-about {
+    margin-right: 50.938rem;
+  }
+
+  .footer-icons-about {
+    margin-right: 47.5rem;
+  }
+
+  section .container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 90rem;
+    grid-template-columns: 90rem;
+    grid-template-rows: 90rem 90rem 90rem 90rem;
+    border-radius: 20px;
+    border: 1px solid red;
+    grid-template-areas:
+      "tonic1"
+      "tonic2"
+      "tonic3"
+      "tonic4";
+  }
+
+  .tonic1 {
+    grid-area: "tonic1";
+  }
+
+  .tonic2 {
+    grid-area: "tonic2";
+  }
+
+  .tonic3 {
+    grid-area: "tonic3";
+  }
+
+  .tonic4 {
+    grid-area: "tonic4";
+  }
+
+  .tonic-title {
+    width: 31rem;
+    height: 48px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #091e42;
+    line-height: 52px;
+    margin-left: 16px;
+    line-height: 44px;
+  }
+
+  .tonic1,
+  .tonic2,
+  .tonic3,
+  .tonic4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 72.25rem;
+    height: 496px;
+    border-radius: 24px;
+    background-color: white;
+    border: 1px solid #dfe1e6;
+    margin-top: 16px;
+    margin-bottom: 88px;
+    margin-left: 150px;
+  }
+
+  .tonic-container {
+    display: flex;
+  }
+
+  .image-tonic {
+    width: 34rem;
+    height: 448px;
+    margin: 16px 16px 0 16px;
+    border: 1px solid purple;
+  }
+
+  .left {
+    width: 34rem;
+    height: 448px;
+  }
+
+  .tonic-container-desktop {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .counter,
+  .tonic-para,
+  .list-skills,
+  .see-pro,
+  .tonic-title {
+    margin-left: 48px;
+  }
 }
