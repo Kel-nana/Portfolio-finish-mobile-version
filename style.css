@@ -410,3 +410,75 @@ h2 .language {
 .frame-lang img {
   transform: rotate(90deg);
 }
+
+/* ======CONTACT-ME-CSS====== */
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("/images/contact\ form\ shapes-mobile.svg"), url("/images/Contact\ me.svg");
+  background-position: 153px 16px, 0 0;
+  background-repeat: no-repeat;
+  height: 779px;
+}
+
+.input-design,
+.textArea {
+  border: 1px solid #cfd8dc;
+  background: white;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 360px;
+}
+
+.text-field p {
+  line-height: 28px !important;
+  color: white;
+  height: 102px;
+  text-align: center;
+}
+
+.text-field h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 103px;
+}
+
+.input-field {
+  width: 327px;
+  margin-bottom: 20px;
+}
+
+.textArea {
+  width: 273px;
+  height: 150px;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+}
+
+.submit-btn {
+  margin-left: 0;
+}
+
+.submit-btn:hover {
+  background: #2230d2;
+}
