@@ -417,6 +417,7 @@ h2 .language {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 375px;
   background-image: url("/images/contactformshapesmobile.svg"), url("/images/Contactme.svg");
   background-position: 153px 16px, 0 0;
   background-repeat: no-repeat;
@@ -428,7 +429,7 @@ h2 .language {
   border: 1px solid #cfd8dc;
   background: white;
   border-radius: 8px;
-  width: 327px;
+  width: 311px;
   height: 48px;
   margin-bottom: 20px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -436,6 +437,7 @@ h2 .language {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
+  padding-left: 16px;
   color: #172b4d;
 }
 
@@ -444,6 +446,7 @@ h2 .language {
   flex-direction: column;
   align-items: center;
   height: 360px;
+  margin-left: 0;
 }
 
 .text-field p {
@@ -451,6 +454,14 @@ h2 .language {
   color: white;
   height: 102px;
   text-align: center;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+border: 1px solid red;
+margin-top: 0;
+margin-bottom: 87px;
 }
 
 .text-field h2 {
@@ -461,6 +472,7 @@ h2 .language {
   line-height: 52px;
   color: #fff;
   margin-top: 103px;
+  margin-bottom: 12px;
 }
 
 .input-field {
