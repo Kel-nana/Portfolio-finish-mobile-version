@@ -720,4 +720,17 @@ h2 .language {
   .tonic-title {
     margin-left: 48px;
   }
+
+  .about_section {
+    display: flex;
+    flex-direction: column;
+    width: 90rem;
+    height: 924px;
+    background-image: url(./images/aboutmyselfbackgroundshapedesktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: #E5E5E5;
+    border: 1px solid lime;
+    margin-top: 26px;
+    margin-bottom: 113px;
 }
