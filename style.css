@@ -514,10 +514,6 @@ fieldset {
   display: none;
 }
 
-/* .img-tanneDSKT {
-  display: none;
-} */
-
 /* =========DESKTOP-VERSION======== */
 @media screen and (min-width: 768px) {
   body {
@@ -526,10 +522,8 @@ fieldset {
     height: 5548px;
     align-items: center;
     justify-content: center;
-    background: #E5E5E5;
+    background: #e5e5e5;
     border: 1px solid gray;
-    /* overflow: hidden;
-    overflow-y: scroll; */
   }
 
   header.logo-menu {
@@ -549,33 +543,33 @@ fieldset {
     margin-right: 0;
   }
 
-.logo {
-  width: 80px;
-  padding-left: 0;
-  margin-left: 9.688rem;
-}
-  
-@keyframes rotate {
-  0% {
-    transform: rotate(45deg);
+  .logo {
+    width: 80px;
+    padding-left: 0;
+    margin-left: 9.688rem;
   }
 
-  25% {
-    transform: rotate(90deg);
+  @keyframes rotate {
+    0% {
+      transform: rotate(45deg);
+    }
+
+    25% {
+      transform: rotate(90deg);
+    }
+
+    50% {
+      transform: rotate(180deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
   }
 
-  50% {
-    transform: rotate(180deg);
+  .logo:hover {
+    animation: rotate 0.5s linear 1s;
   }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.logo:hover {
-  animation: rotate 0.5s linear 1s;
-}
 
   .logo-menu nav {
     display: none;
@@ -591,7 +585,6 @@ fieldset {
     font-weight: 500;
     font-size: 0.938;
     line-height: 20px;
-    border: 2px solid lime;
     color: #344563;
     width: 259px;
     height: 40px;
@@ -601,12 +594,11 @@ fieldset {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 87px ;
+    width: 87px;
     height: 40px;
     padding: 10px, 12px, 10px, 12px;
   }
 
-  
   .main-container {
     display: flex;
     flex-direction: column;
@@ -617,16 +609,13 @@ fieldset {
     font-weight: 500;
     font-size: 0.938rem;
     line-height: 20px;
-    border: 2px solid lime;
     background-image: url("/images/HeaderBgDesktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
-    border: 1px solid red;
     color: #344563;
     width: 100vw;
     height: 135.36vh;
     border-bottom-left-radius: 85px;
-    /* padding-top: 118px; */
     margin-top: 77px;
   }
 
@@ -640,7 +629,6 @@ fieldset {
     align-items: center;
     width: 63.8889%;
     height: 14%;
-    border: 1px solid lime;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -657,7 +645,6 @@ fieldset {
     align-items: center;
     width: 63.8889%;
     height: 14%;
-    border: 1px solid lime;
     overflow: hidden;
   }
 
@@ -665,7 +652,7 @@ fieldset {
     display: flex;
     width: 63.8889%;
     height: 11.58392%;
-    font-family: "Poppins";
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -676,18 +663,14 @@ fieldset {
 
   .connect-about {
     margin-right: 63.7089%;
-   
   }
 
   .footer-icons-about {
     margin-right: 60.1533%;
     margin-top: 10px;
-
   }
 
   section .container {
-
-    /* position: absolute; */
     display: grid;
     align-items: center;
     justify-items: center;
@@ -695,7 +678,6 @@ fieldset {
     grid-template-columns: 90rem;
     grid-template-rows: 100% 100% 100% 100%;
     border-radius: 20px;
-    border: 1px solid red;
     grid-template-areas:
       "tonic1"
       "tonic2"
@@ -747,7 +729,6 @@ fieldset {
     height: 496px;
     border-radius: 24px;
     background-color: white;
-    border: 1px solid #dfe1e6;
     margin-top: 16px;
     margin-bottom: 88px;
     margin-left: 150px;
@@ -762,27 +743,21 @@ fieldset {
     height: 470px;
     margin: 16px 16px 0 16px;
     border-radius: 8px;
-    border: 1px solid purple;
-  }
-
-  .picture-re-size {
-    border: 1px solid yellow;
   }
 
   .left {
     padding-top: 48px;
     width: 50.7778%;
     height: 448px;
-    border: 1px solid yellow;
   }
-.img-tanne {
-  display: none;
-}
+  .img-tanne {
+    display: none;
+  }
 
-.img-tanneDSKT{
-  display: block;
-  width: 100%;
-}
+  .img-tanneDSKT {
+    display: block;
+    width: 100%;
+  }
   .tonic-container-desktop {
     display: flex;
     flex-direction: row-reverse;
@@ -798,181 +773,162 @@ fieldset {
 
   .tonic-para {
     width: 80%;
-height: 20%;
-font-family: 'Poppins',Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
+    height: 20%;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 
-/* ==========ABOUT SECTION============ */
+  /* ==========ABOUT SECTION============ */
   .about_section {
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 148.07692307692307vh;
-    background-color: #E5E5E5;
+    background-color: #e5e5e5;
     background-image: url(./images/aboutmyselfbackgroundshapedesktop.svg);
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
     border: 1px solid lime;
     margin-top: 26px;
     margin-bottom: 0;
-}
+  }
 
-.desktopV {
-  width: 56%;
-  height: 100%;
-  border: 1px solid rgb(255, 60, 0);
-}
-.right-desktop {
-  width: 44%;
+  .desktopV {
+    width: 56%;
     height: 100%;
-    border: 1px solid rgb(255, 60, 0);
-}
+  }
+  .right-desktop {
+    width: 44%;
+    height: 100%;
+  }
 
-.about {
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 2.5rem;
-  line-height: 52px;
-  color: #091E42;
-  margin-left: 118px;
-  margin-bottom: 12px;
-  margin-top: 142px;
-}
+  .about {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 52px;
+    color: #091e42;
+    margin-left: 118px;
+    margin-bottom: 12px;
+    margin-top: 142px;
+  }
 
-.hello {
-  margin-left: 17%;
-  width: 80%;
-  height: 9.3%;
-  overflow: hidden;
-  border: 1px solid dodgerblue;
-}
+  .hello {
+    margin-left: 17%;
+    width: 80%;
+    height: 9.3%;
+    overflow: hidden;
+  }
 
-.hello p {
-  font-family: 'Poppins',Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 1rem;
-line-height: 24px;
-/* margin-left: 118px; */
-  width: 100%;
-height: 100%;
-border: 1px solid lime;
+  .hello p {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 24px;
+    width: 100%;
+    height: 100%;
+  }
 
-}
+  .connect-about {
+    margin-left: 98px;
+  }
 
-.connect-about {
-  margin-left: 98px;
+  .footer-icons-about {
+    margin-left: 102px;
+  }
 
-}
+  #btn-get {
+    margin-left: 110px;
+    margin-top: 20px;
+    width: 162px;
+    height: 48px;
+  }
 
-.footer-icons-about {
-  margin-left: 102px;
-}
+  /* ===========ABOUT ME RIGHT SIDE =============== */
+  .frame-lang {
+    width: 90%;
+    margin-top: 146px;
+  }
+  .list-skills-about {
+    margin-left: 24px;
+    margin-top: 60px;
+    height: 170px;
+  }
 
-#btn-get {
-  margin-left: 110PX;
-  margin-top: 20px;
-  width: 162px;
-  height: 48px;
-}
+  .list-skills-about ul {
+    width: 414px;
+    margin-top: 0;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
 
-/* ===========ABOUT ME RIGHT SIDE =============== */
-.frame-lang {
-  width: 90%;
-  margin-top: 146px;
-}
-.list-skills-about {
-  margin-left: 24PX;
-  border: 1PX SOLID lime;
-  margin-top: 60px;
-  height: 170px;
-}
+  .list-skills-about ul li {
+    margin: 12px;
+  }
 
-.list-skills-about ul {
-  width: 414px;
-  margin-top: 0;
-  height: 144px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  border: 2px solid orangered;
-  
-  /* align-items: flex-start; */
-}
+  .language {
+    margin-right: 40%;
+  }
 
-.list-skills-about ul li {
-  margin: 12px;
-}
+  .frame {
+    width: 90%;
+    height: 72px;
+  }
 
-.language {
-  
-  margin-right: 40%;
-}
+  /* =========CONTACT-ME============== */
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 124.64vh;
+    background-image: url(/images/contactDSKT3.svg),
+      url(/images/contactDSKT1.svg) !important;
+    background-position: 0, 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.frame-lang img {
-  /* margin-top: 150px; */
-}
+  fieldset {
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    border: 0;
+    background-color: #fff;
+  }
 
-.frame {
-  width: 90%;
-  height: 72px;
-}
-/* =========CONTACT-ME============== */
-.contact-me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 124.64vh;
-  background-image: url(/images/contactDSKT3.svg), url(/images/contactDSKT1.svg) !important;
-  background-position:  0, 0 0;
-  background-repeat: no-repeat;
-  background-size:cover;
-}
+  .input-field {
+    margin-top: 170px;
+    width: 40%;
+    margin-left: 30%;
+  }
 
-fieldset {
-  /*  */
-  padding: 0;
-  margin: 0;
-  margin-left: 0;
-  border: 0;
-  background-color: #fff;
-}
+  .text-field h2 {
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
 
-.input-field {
-  margin-top: 170px;
-  width: 40%;
-  margin-left: 30%;
-}
+  .text-field p {
+    width: 569px;
+    height: 102px;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+  }
 
-.text-field h2 {
-  margin-top: 100px;
-  margin-bottom: 0;
-}
-
-.text-field p {
-  width: 569px;
-height: 102px;
-
-font-family: 'Poppins',Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-/* or 140% */
-
-text-align: center;
-}
-
-
-.submit-btn {
-  margin-left: 100px;
-  margin-top: 0;
-}
+  .submit-btn {
+    margin-left: 100px;
+    margin-top: 0;
+  }
 }
