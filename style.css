@@ -496,6 +496,14 @@ h2 .language {
   background: #2230d2;
 }
 
+fieldset {
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  border: 0;
+  background-color: #fff;
+}
+
 /* ======HIDE DIV======== */
 .header-desktop {
   display: none;
@@ -526,12 +534,42 @@ h2 .language {
     background-color: white;
     width: 90rem;
     height: 46px;
+    padding-bottom: 50px;
     top: 0;
   }
 
   .logo a {
-    margin-left: 9.688rem;
+    margin-left: 0;
+    margin-right: 0;
   }
+
+.logo {
+  width: 80px;
+  padding-left: 0;
+  margin-left: 9.688rem;
+}
+  
+@keyframes rotate {
+  0% {
+    transform: rotate(45deg);
+  }
+
+  25% {
+    transform: rotate(90deg);
+  }
+
+  50% {
+    transform: rotate(180deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.logo:hover {
+  animation: rotate 0.5s linear 1s;
+}
 
   .logo-menu nav {
     display: none;
@@ -581,7 +619,8 @@ h2 .language {
     width: 90rem;
     border-bottom-left-radius: 85px;
     height: 846px;
-    margin-top: 118px;
+    /* padding-top: 118px; */
+    margin-top: 92px;
   }
 
   .title-lp {
@@ -627,11 +666,12 @@ h2 .language {
   }
 
   .connect-about {
-    margin-right: 50.938rem;
+    margin-right: 57.338rem;
+   
   }
 
   .footer-icons-about {
-    margin-right: 47.5rem;
+    margin-right: 54.138rem;
     margin-top: 10px;
 
   }
@@ -677,6 +717,7 @@ h2 .language {
     color: #091e42;
     line-height: 52px;
     margin-left: 16px;
+    margin-bottom: 0;
     line-height: 44px;
   }
 
@@ -710,6 +751,7 @@ h2 .language {
   }
 
   .left {
+    padding-top: 48px;
     width: 34rem;
     height: 448px;
   }
@@ -727,6 +769,16 @@ h2 .language {
     margin-left: 48px;
   }
 
+  .tonic-para {
+    width: 496px;
+height: 50px;
+font-family: 'Poppins',Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+  }
+
 /* ==========ABOUT SECTION============ */
   .about_section {
     display: flex;
@@ -739,7 +791,7 @@ h2 .language {
     background-size: cover; 
     border: 1px solid lime;
     margin-top: 26px;
-    margin-bottom: 113px;
+    margin-bottom: 0;
 }
 
 .desktopV {
@@ -836,20 +888,58 @@ height: 102px;
   width: 700px;
   height: 72px;
 }
-
+/* =========CONTACT-ME============== */
 .contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/contactFormBackgroundShapes.svg), url(/images/contactFormBackgroundShapedesktop.svg);
-  /* background-position: 153px 16px, 0 0; */
-  background-repeat: no-repeat;
-  background-size: 1408px 778px;
-  margin-right: 100px;
-  padding-block-start: 0;
-    padding-inline-start: 0;
   height: 779px;
+  background-image: url(/images/contactDSKT3.svg), url(/images/contactDSKT1.svg) !important;
+  background-position:  0, 0 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
 
+fieldset {
+  /*  */
+  padding: 0;
+  margin: 0;
+  margin-left: 0;
+  border: 0;
+  background-color: #fff;
+}
+
+.input-field {
+  margin-top: 170px;
+}
+
+.text-field h2 {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.text-field p {
+  width: 569px;
+height: 102px;
+
+font-family: 'Poppins',Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+/* or 140% */
+
+text-align: center;
+}
+.hello {
+  margin-left: 0;
+  width: 447px;
+  height: 102px;
+}
+
+.submit-btn {
+  margin-left: 100px;
+  margin-top: 0;
 }
 }
