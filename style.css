@@ -504,6 +504,14 @@ fieldset {
   background-color: #fff;
 }
 
+.bottom_line {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 89px;
+}
+
 /* ======HIDE DIV======== */
 .header-desktop {
   display: none;
@@ -925,7 +933,6 @@ fieldset {
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    border: 1px solid lime;
     line-height: 28px;
     text-align: center;
     padding-bottom: 130px;
@@ -934,5 +941,9 @@ fieldset {
   .submit-btn {
     margin-left: 100px;
     margin-top: 0;
+  }
+
+  .bottom_line {
+    display: none;
   }
 }
