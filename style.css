@@ -402,6 +402,7 @@ h2 .language {
   line-height: 24px;
   margin-left: 24px;
   margin-bottom: 12px;
+  border-bottom: 1px solid black;
 }
 
 .frame-lang {
@@ -495,6 +496,7 @@ h2 .language {
   background: #2230d2;
 }
 
+/* ======HIDE DIV======== */
 .header-desktop {
   display: none;
 }
@@ -503,6 +505,7 @@ h2 .language {
   display: none;
 }
 
+/* =========DESKTOP-VERSION======== */
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
@@ -510,7 +513,7 @@ h2 .language {
     height: 5548px;
     align-items: center;
     justify-content: center;
-    background: white;
+    background: #E5E5E5;
     border: 1px solid gray;
     overflow-y: scroll;
   }
@@ -576,6 +579,7 @@ h2 .language {
     border: 1px solid red;
     color: #344563;
     width: 90rem;
+    border-bottom-left-radius: 85px;
     height: 846px;
     margin-top: 118px;
   }
@@ -628,6 +632,8 @@ h2 .language {
 
   .footer-icons-about {
     margin-right: 47.5rem;
+    margin-top: 10px;
+
   }
 
   section .container {
@@ -699,6 +705,7 @@ h2 .language {
     width: 34rem;
     height: 448px;
     margin: 16px 16px 0 16px;
+    border-radius: 8px;
     border: 1px solid purple;
   }
 
@@ -720,16 +727,134 @@ h2 .language {
     margin-left: 48px;
   }
 
+/* ==========ABOUT SECTION============ */
   .about_section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 90rem;
     height: 924px;
+    background-color: #E5E5E5;
     background-image: url(./images/aboutmyselfbackgroundshapedesktop.svg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background: #E5E5E5;
+    background-size: cover; 
     border: 1px solid lime;
     margin-top: 26px;
     margin-bottom: 113px;
+}
+
+.desktopV {
+  width: 62rem;
+  height: 924px;
+  border: 1px solid rgb(255, 60, 0);
+}
+.right-desktop {
+  width: 38rem;
+    height: 924px;
+    border: 1px solid rgb(255, 60, 0);
+}
+
+.about {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091E42;
+  margin-left: 118px;
+  margin-bottom: 12px;
+  margin-top: 142px;
+}
+
+.hello {
+  margin-left: 118px;
+  width: 447px;
+height: 102px;
+}
+
+.hello p {
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+width: 447px;
+height: 102px;
+border: 1px solid lime;
+width: 447px;
+height: 102px;
+}
+
+.connect-about {
+  margin-left: 98px;
+
+}
+
+.footer-icons-about {
+  margin-left: 102px;
+}
+
+#btn-get {
+  margin-left: 110PX;
+  margin-top: 20px;
+  width: 162px;
+  height: 48px;
+}
+
+.list-skills-about {
+  margin-left: 24PX;
+  border: 1PX SOLID lime;
+  margin-top: 60px;
+  height: 170px;
+}
+
+.list-skills-about ul {
+  width: 414px;
+  margin-top: 0;
+  height: 144px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 2px solid orangered;
+  
+  /* align-items: flex-start; */
+}
+
+.list-skills-about ul li {
+  margin: 12px;
+}
+
+.language {
+  margin-top: 166px;
+  margin-right: 500px;
+}
+
+.frame-lang img {
+  margin-top: 150px;
+}
+
+.frame {
+  width: 700px;
+  height: 72px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/contactFormBackgroundShapes.svg), url(/images/contactFormBackgroundShapedesktop.svg);
+  /* background-position: 153px 16px, 0 0; */
+  background-repeat: no-repeat;
+  background-size: 1408px 778px;
+  margin-right: 100px;
+  padding-block-start: 0;
+    padding-inline-start: 0;
+  height: 779px;
+/* .frame img{
+  margin-left: 550px;
+}
+
+.skill-desktop {
+  margin-right: 76px;
+} */
 }
