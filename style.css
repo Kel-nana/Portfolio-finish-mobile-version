@@ -560,6 +560,7 @@ fieldset {
     margin-left: 9.688rem;
   }
 
+  /* =============LOGO ROTATE KEYFRAME============== */
   @keyframes rotate {
     0% {
       transform: rotate(45deg);
@@ -610,6 +611,7 @@ fieldset {
     padding: 10px, 12px, 10px, 12px;
   }
 
+  /* ===========LANDING PAGE========== */
   .main-container {
     display: flex;
     flex-direction: column;
@@ -681,6 +683,7 @@ fieldset {
     margin-top: 10px;
   }
 
+  /* ===========MAIN-BODY-SECTION================ */
   section .container {
     display: grid;
     align-items: center;
