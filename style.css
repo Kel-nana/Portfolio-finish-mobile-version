@@ -11,7 +11,8 @@ body {
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 header.logo-menu {
@@ -368,7 +369,7 @@ section .container {
   padding-inline-end: 0;
 }
 
-h2 .language {
+.language p {
   height: 24px;
   left: 12px;
   right: 78px;
@@ -429,7 +430,8 @@ h2 .language {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/contact\ form\ shapes-mobile.svg"), url("/images/Contact\ me.svg");
+  background-image: url("/images/contact\ form\ shapes-mobile.svg"),
+    url("/images/Contact\ me.svg");
   background-position: 153px 16px, 0 0;
   background-repeat: no-repeat;
   height: 787px;
@@ -528,12 +530,14 @@ fieldset {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
-    width: 100vw;
-    height: 5548px;
+    width: 1440px;
+    height: 5100px;
     align-items: center;
     justify-content: center;
     background: #e5e5e5;
     border: 1px solid gray;
+    overflow-y: auto;
+    overflow-x: hidden;
   }
 
   header.logo-menu {
@@ -626,9 +630,10 @@ fieldset {
     background-size: contain;
     color: #344563;
     width: 100vw;
-    height: 135.36vh;
+    height: 780px;
     border-bottom-left-radius: 85px;
     margin-top: 77px;
+    margin-bottom: 142px;
   }
 
   .title-lp {
@@ -639,24 +644,24 @@ fieldset {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 63.8889%;
-    height: 17.5%;
+    width: 63.889vw;
+    height: 15.68vh;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 3rem;
-    line-height: 3.75rem;
+    font-size: 3.3333vw;
+    line-height: 4.167vw;
     letter-spacing: 0.37px;
     color: #091e42;
-    overflow: hidden;
+    margin-bottom: 12px;
   }
 
   .titletext {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 63.8889%;
-    height: 17.5%;
+    width: 63.889vw;
+    height: 15.68vh;
     overflow: hidden;
   }
 
@@ -667,21 +672,28 @@ fieldset {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 1.389vw;
+    line-height: 1.389vw;
     margin-left: 0;
     color: #344563;
   }
 
   .connect-about {
-    margin-right: 63.7089%;
-    margin-left: 98px;
+    margin-right: 62.7089%;
+    margin-left: 115px;
+  }
+
+  .connect-about h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
   }
 
   .footer-icons-about {
     margin-right: 60.1533%;
     margin-top: 10px;
-    margin-left: 102px;
+    margin-left: 115px;
+    margin-bottom: 34px;
   }
 
   /* ===========MAIN-BODY-SECTION================ */
@@ -690,9 +702,9 @@ fieldset {
     align-items: center;
     justify-items: center;
     width: 100vw;
-    height: 2500px;
+    height: 2550px;
     grid-template-columns: 100%;
-    grid-template-rows: 100vh 100vh 100vh 100vh;
+    grid-template-rows: 636px 636px 636px 636px;
     border-radius: 20px;
     grid-template-areas:
       "tonic1"
@@ -722,11 +734,16 @@ fieldset {
     height: 20%;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.778vw;
     color: #091e42;
     margin-left: 16px;
     margin-bottom: 0;
     line-height: 44px;
+  }
+
+  .counter span,
+  .counter ul {
+    font-size: 1.25vw !important;
   }
 
   .tonic1,
@@ -736,12 +753,12 @@ fieldset {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 80.2778%;
+    width: 80.278vw;
     height: 496px;
     border-radius: 24px;
     background-color: white;
     margin-top: 16px;
-    margin-bottom: 88px;
+    margin-bottom: 142px;
   }
 
   .tonic-container {
@@ -749,16 +766,16 @@ fieldset {
   }
 
   .image-tonic {
-    width: 43.7778%;
-    height: 470px;
-    margin: 16px 16px 0 16px;
+    width: 37.778vw;
+    height: 450px;
+    margin: 24px 24px 0 24px;
     border-radius: 8px;
   }
 
   .left {
     padding-top: 48px;
-    width: 50.7778%;
-    height: 448px;
+    width: 37.778vw;
+    height: 445px;
   }
 
   .img-tanne {
@@ -767,7 +784,8 @@ fieldset {
 
   .img-tanneDSKT {
     display: block;
-    width: 100%;
+    width: 37.778vw;
+    height: 448px;
   }
 
   .tonic-container-desktop {
@@ -783,13 +801,17 @@ fieldset {
     margin-left: 48px;
   }
 
+  .counter {
+    width: 307px;
+  }
+
   .tonic-para {
     width: 80%;
     height: 20%;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1.111vw;
     line-height: 24px;
   }
 
@@ -797,8 +819,8 @@ fieldset {
   .about_section {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    height: 108.07692307692307vh;
+    width: 100vw;
+    height: 668px;
     background-color: #e5e5e5;
     background-image: url(./images/aboutmyselfbackgroundshapedesktop.svg);
     background-repeat: no-repeat;
@@ -809,32 +831,40 @@ fieldset {
   }
 
   .desktopV {
-    width: 56%;
-    height: 100%;
+    width: 59.097vw;
+    height: 668px;
   }
 
   .right-desktop {
-    width: 44%;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    width: 43.472vw;
+    height: 668px;
   }
 
   .about {
+    display: flex;
+    justify-content: flex-start;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 2.5rem;
-    line-height: 52px;
+    font-size: 2.778vw;
+    line-height: 3.611vw;
     color: #091e42;
-    margin-left: 118px;
-    margin-bottom: 12px;
-    margin-top: 142px;
+    margin-bottom: 20px;
+    padding-top: 140px;
+    margin-right: 20%;
+    margin-top: 0 !important;
+    margin-block-start: 1em;
   }
 
   .hello {
-    margin-left: 120px;
-    width: 78%;
-    height: 14%;
+    width: 31.042vw;
+    height: 102px;
     margin-bottom: 0;
+    margin-left: 0;
   }
 
   .hide-overflow {
@@ -845,15 +875,16 @@ fieldset {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    width: 100%;
-    height: 100%;
+    font-size: 1.111vw;
+    line-height: 24px;
+    width: 31.042vw;
+    height: 102px;
     margin: 0;
+    margin-block-end: 0;
   }
 
   #btn-get {
-    margin-left: 120px;
+    margin-right: 22.222vw;
     margin-top: 20px;
     width: 162px;
     height: 48px;
@@ -882,6 +913,13 @@ fieldset {
 
   .list-skills-about ul li {
     margin-right: 12px;
+    width: 8.472vw;
+    height: 120px;
+  }
+
+  .skill-icon {
+    width: 8.472vw;
+    height: 120px;
   }
 
   .language {
@@ -901,12 +939,13 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 130vh;
-    background-image: url(/images/contactDSKT3.svg), url(/images/contactDSKT1.svg) !important;
+    width: 1440px;
+    height: 846px;
+    background-image: url(./images/contactDSKT3.svg),
+      url(./images/contactDSKT1.svg) !important;
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100vw 100%;
   }
 
   fieldset {
@@ -918,9 +957,12 @@ fieldset {
   }
 
   .input-field {
-    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
     width: 40%;
-    margin-left: 27%;
   }
 
   .text-field h2 {
@@ -929,28 +971,45 @@ fieldset {
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 2.778vw;
+    line-height: 3.611vw;
   }
 
   .text-field p {
-    width: 42.5%;
-    height: 100%;
+    width: 39.514vw;
+    height: 102px;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.389vw;
+    line-height: 1.944vw;
     text-align: center;
     padding-bottom: 130px;
   }
 
   .submit-btn {
-    margin-left: 100px;
+    margin-left: 0;
     margin-top: 0;
   }
 
   .bottom_line {
     display: none;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .input-design,
+  .textArea {
+    width: 31.042vw;
+  }
+
+  .input-design {
+    padding-left: 16px;
+    padding-right: 38px;
   }
 }
