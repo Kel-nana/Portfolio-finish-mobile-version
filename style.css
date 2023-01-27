@@ -649,7 +649,6 @@ fieldset {
     letter-spacing: 0.37px;
     color: #091e42;
     overflow: hidden;
-    border: 1px solid red;
   }
 
   .titletext {
@@ -659,7 +658,6 @@ fieldset {
     width: 63.8889%;
     height: 17.5%;
     overflow: hidden;
-    border: 1px solid lime;
   }
 
   .titletext p {
