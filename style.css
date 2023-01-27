@@ -641,7 +641,7 @@ fieldset {
     justify-content: flex-start;
     align-items: center;
     width: 63.8889%;
-    height: 14%;
+    height: 17.5%;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -650,6 +650,7 @@ fieldset {
     letter-spacing: 0.37px;
     color: #091e42;
     overflow: hidden;
+    border: 1px solid red;
   }
 
   .titletext {
@@ -657,19 +658,20 @@ fieldset {
     justify-content: flex-start;
     align-items: center;
     width: 63.8889%;
-    height: 14%;
+    height: 17.5%;
     overflow: hidden;
+    border: 1px solid lime;
   }
 
   .titletext p {
     display: flex;
-    width: 63.8889%;
-    height: 11.58392%;
+    width: 99%;
+    height: 99%;
     font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
     margin-left: 0;
     color: #344563;
   }
@@ -793,5 +795,169 @@ fieldset {
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
+  }
+
+  /* ==========ABOUT SECTION============ */
+  .about_section {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 148.07692307692307vh;
+    background-color: #e5e5e5;
+    background-image: url(./images/aboutmyselfbackgroundshapedesktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 26px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .desktopV {
+    width: 56%;
+    height: 100%;
+  }
+
+  .right-desktop {
+    width: 44%;
+    height: 100%;
+  }
+
+  .about {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 52px;
+    color: #091e42;
+    margin-left: 118px;
+    margin-bottom: 12px;
+    margin-top: 142px;
+  }
+
+  .hello {
+    margin-left: 120px;
+    width: 78%;
+    height: 14%;
+    margin-bottom: 0;
+  }
+
+  .hide-overflow {
+    overflow: hidden;
+  }
+
+  .hello p {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .connect-about {
+    margin-left: 98px;
+  }
+
+  .footer-icons-about {
+    margin-left: 102px;
+  }
+
+  #btn-get {
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 162px;
+    height: 48px;
+  }
+
+  /* ===========ABOUT ME RIGHT SIDE =============== */
+  .frame-lang {
+    width: 90%;
+    height: 45px;
+    margin-top: 120px;
+  }
+  .list-skills-about {
+    margin-left: 24px;
+    height: 140px;
+  }
+
+  .list-skills-about ul {
+    width: 414px;
+    padding: 0;
+    height: 144px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .list-skills-about ul li {
+    margin-right: 12px;
+  }
+
+  .language {
+    margin-right: 40%;
+    margin-bottom: 0;
+  }
+
+  .frame {
+    width: 90%;
+    height: 70px;
+    margin-bottom: 0;
+  }
+
+  /* =========CONTACT-ME============== */
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 124.64vh;
+    background-image: url(/images/contactDSKT3.svg),
+      url(/images/contactDSKT1.svg) !important;
+    background-position: 0, 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  fieldset {
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    border: 0;
+    background-color: #fff;
+  }
+
+  .input-field {
+    margin-top: 200px;
+    width: 40%;
+    margin-left: 30%;
+  }
+
+  .text-field h2 {
+    margin-top: 100px;
+    margin-bottom: 0;
+  }
+
+  .text-field p {
+    width: 70%;
+    height: 100%;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 130px;
+  }
+
+  .submit-btn {
+    margin-left: 100px;
+    margin-top: 0;
+  }
+
+  .bottom_line {
+    display: none;
   }
 }
