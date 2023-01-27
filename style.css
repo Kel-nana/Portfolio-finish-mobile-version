@@ -530,7 +530,7 @@ fieldset {
   body {
     margin: 0;
     width: 1440px;
-    height: 5100px;
+    height: 4990px;
     align-items: center;
     justify-content: center;
     background: #e5e5e5;
@@ -938,12 +938,12 @@ fieldset {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1440px;
+    width: 100vw;
     height: 846px;
     background-image: url(./images/contactDSKT3.svg), url(./images/contactDSKT1.svg) !important;
     background-position: 0 0;
     background-repeat: no-repeat;
-    background-size: 100vw 100%;
+    background-size: 100vw 105%;
   }
 
   fieldset {
@@ -952,6 +952,8 @@ fieldset {
     margin-left: 0;
     border: 0;
     background-color: #fff;
+    width: 100vw;
+    height: 506px;
   }
 
   .input-field {
