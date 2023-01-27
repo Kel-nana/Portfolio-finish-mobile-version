@@ -430,8 +430,7 @@ section .container {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/contact\ form\ shapes-mobile.svg"),
-    url("/images/Contact\ me.svg");
+  background-image: url("/images/contact\ form\ shapes-mobile.svg"), url("/images/Contact\ me.svg");
   background-position: 153px 16px, 0 0;
   background-repeat: no-repeat;
   height: 787px;
@@ -941,8 +940,7 @@ fieldset {
     align-items: center;
     width: 1440px;
     height: 846px;
-    background-image: url(./images/contactDSKT3.svg),
-      url(./images/contactDSKT1.svg) !important;
+    background-image: url(./images/contactDSKT3.svg), url(./images/contactDSKT1.svg) !important;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100vw 100%;
