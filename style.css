@@ -7,7 +7,6 @@ body {
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
-  border: 1px solid gray;
   overflow-y: scroll;
 }
 
@@ -291,7 +290,7 @@ section .container {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 26px;
-  margin-bottom: 12px;
+  margin-bottom: 0;
 }
 
 .about {
@@ -409,4 +408,107 @@ h2 .language {
 
 .frame-lang img {
   transform: rotate(90deg);
+}
+
+/* ======CONTACT-ME-CSS====== */
+.contact-me {
+  margin-top: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  background-image: url("/images/contactformshapesmobile.svg"), url("/images/Contactme.svg");
+  background-position: 153px 16px, 0 0;
+  background-repeat: no-repeat;
+  height: 787px;
+  padding-bottom: 70px;
+}
+
+.input-design,
+.textArea {
+  border: 1px solid #cfd8dc;
+  background: white;
+  border-radius: 8px;
+  width: 311px;
+  height: 48px;
+  margin-bottom: 20px;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  padding-left: 16px;
+  color: #172b4d;
+}
+
+.text-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 352px;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.text-field p {
+  line-height: 28px !important;
+  color: white;
+  height: 102px;
+  text-align: center;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 87px;
+}
+
+.text-field h2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 103px;
+  margin-bottom: 12px;
+}
+
+.input-field {
+  width: 327px;
+  margin-bottom: 28px;
+}
+
+.textArea {
+  width: 273px;
+  height: 150px;
+  border-radius: 8px;
+  padding: 15px 38px 15px 16px;
+}
+
+.submit-btn {
+  margin-top: 0;
+  margin-left: 0;
+  margin-bottom: 32px;
+}
+
+.submit-btn:hover {
+  background: #2230d2;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+  padding-top: 30px;
+  border: 0;
+  background-color: #fff;
+}
+
+.bottom_line {
+  width: 134px;
+  height: 5px;
+  background: #0d151e;
+  border-radius: 10px;
+  margin-left: 89px;
 }
