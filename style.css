@@ -1,9 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   width: 375px;
-  height: 4769px;
+  height: 5548px;
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
@@ -187,22 +191,16 @@ section .container {
 }
 
 .list-skills {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
   list-style-type: none;
-  width: 203px;
+  width: 290px;
   height: 24px;
   margin-left: 16px;
   margin-top: 12px;
 }
 
 .list-skills ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
   list-style: none;
-  width: 203px;
+  width: 290px;
   height: 24px;
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 500;
@@ -217,8 +215,23 @@ section .container {
 .list-skills ul li {
   background: #ebebff;
   border-radius: 8px;
-  padding: 4px 12px;
+  padding: 4px 1px;
   margin-right: 8px;
+  float: left;
+  text-align: center;
+}
+
+.list-skills ul li:nth-child(1) {
+  width: 53px;
+}
+
+.list-skills ul li:nth-child(2) {
+  width: 45px;
+}
+
+.list-skills ul li:nth-child(3) {
+  width: 114px;
+  margin-right: 0;
 }
 
 #btn-get {
@@ -290,7 +303,7 @@ section .container {
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 26px;
-  margin-bottom: 0;
+  padding-bottom: 113px;
 }
 
 .about {
@@ -389,6 +402,7 @@ h2 .language {
   line-height: 24px;
   margin-left: 24px;
   margin-bottom: 12px;
+  border-bottom: 1px solid black;
 }
 
 .frame-lang {
@@ -410,19 +424,16 @@ h2 .language {
   transform: rotate(90deg);
 }
 
-/* ======CONTACT-ME-CSS====== */
 .contact-me {
-  margin-top: 113px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 375px;
-  background-image: url("/images/contactformshapesmobile.svg"), url("/images/Contactme.svg");
+  background-image: url("/images/contact\ form\ shapes-mobile.svg"),
+    url("/images/Contact\ me.svg");
   background-position: 153px 16px, 0 0;
   background-repeat: no-repeat;
   height: 787px;
-  padding-bottom: 70px;
 }
 
 .input-design,
@@ -430,7 +441,7 @@ h2 .language {
   border: 1px solid #cfd8dc;
   background: white;
   border-radius: 8px;
-  width: 311px;
+  width: 327px;
   height: 48px;
   margin-bottom: 20px;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
@@ -438,7 +449,6 @@ h2 .language {
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
-  padding-left: 16px;
   color: #172b4d;
 }
 
@@ -446,9 +456,7 @@ h2 .language {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 352px;
-  margin-left: 0;
-  margin-bottom: 0;
+  height: 360px;
 }
 
 .text-field p {
@@ -456,12 +464,6 @@ h2 .language {
   color: white;
   height: 102px;
   text-align: center;
-  font-family: "Poppins", Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  margin-top: 0;
-  margin-bottom: 87px;
 }
 
 .text-field h2 {
@@ -472,12 +474,11 @@ h2 .language {
   line-height: 52px;
   color: #fff;
   margin-top: 103px;
-  margin-bottom: 12px;
 }
 
 .input-field {
   width: 327px;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
 }
 
 .textArea {
@@ -503,6 +504,7 @@ fieldset {
   padding-top: 30px;
   border: 0;
   background-color: #fff;
+  height: 787px;
 }
 
 .bottom_line {
@@ -511,4 +513,50 @@ fieldset {
   background: #0d151e;
   border-radius: 10px;
   margin-left: 89px;
+}
+
+/* ======HIDE DIV======== */
+.header-desktop {
+  display: none;
+}
+
+.title-desktop,
+.img-tanneDSKT {
+  display: none;
+}
+
+/* =========DESKTOP-VERSION======== */
+@media screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    width: 100vw;
+    height: 5548px;
+    align-items: center;
+    justify-content: center;
+    background: #e5e5e5;
+    border: 1px solid gray;
+  }
+
+  header.logo-menu {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    height: 46px;
+    padding-bottom: 50px;
+    top: 0;
+  }
+
+  .logo a {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .logo {
+    width: 80px;
+    padding-left: 0;
+    margin-left: 9.688rem;
+  }
 }
