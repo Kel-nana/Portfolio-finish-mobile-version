@@ -42,6 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+      - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -80,7 +81,14 @@ Portfolio: desktop version Project is a Its a project meant to master my skills 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Getting Started
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+- [Live Demo Link](https://kel-nana.github.io/Portfolio-finish-mobile-version/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 **This is an example of how you may give instructions on setting up your project locally.**
 
 To get a local copy up and running follow these simple example steps.
