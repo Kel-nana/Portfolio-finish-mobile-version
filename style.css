@@ -16,7 +16,7 @@ body {
 }
 
 header.logo-menu {
-  position: absolute;
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -541,14 +541,14 @@ fieldset {
   }
 
   header.logo-menu {
-    position: absolute;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     width: 100%;
-    height: 46px;
-    padding-bottom: 50px;
+    height: 96px;
     top: 0;
   }
 
@@ -625,7 +625,7 @@ fieldset {
     font-weight: 500;
     font-size: 0.938rem;
     line-height: 20px;
-    background-image: url("/images/HeaderBgDesktop.svg");
+    background-image: url("./images/HeaderBgDesktop.svg");
     background-repeat: no-repeat;
     background-size: contain;
     color: #344563;
