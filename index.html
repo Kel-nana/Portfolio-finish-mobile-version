@@ -12,7 +12,7 @@
     crossorigin="anonymous"
     referrerpolicy="no-referrer"
   />
-    <title>Portfolio mobile first</title>
+    <title>Kelvin's Portfolio Website</title>
   </head>
   <body>
 
@@ -318,15 +318,15 @@
          <div class="list-skills-about">
            <ul>
              <li>
-              <img class="img-tanne" src="./images/javascript.svg" alt="" />
+              <img class="img-tanne" src="./images/javascript.svg" alt="javaScript image" />
             <img class="img-tanneDSKT skill-icon" src="./images/JSdesktopAbout.svg" alt="javaScript icon" />
              </li>
              <li>
-              <img class="img-tanne" src="./images/html.svg" alt="" />
+              <img class="img-tanne" src="./images/html.svg" alt="html image" />
             <img class="img-tanneDSKT skill-icon" src="./images/HTMLdesktopAbout.svg" alt="html icon" />
             </li>
              <li>
-              <img class="img-tanne" src="./images/css.svg" alt="" />
+              <img class="img-tanne" src="./images/css.svg" alt="css image" />
             <img class="img-tanneDSKT skill-icon" src="./images/CSSdesktopAbout.svg" alt="css icon" />
            </ul>
          </div>
@@ -343,6 +343,7 @@
        </div>
     <!-- ============CONTACT-ME-FORM==========  -->
     <fieldset>
+      <legend hidden="hidden">contact me</legend>
       <section class="contact-me">
        <div class="text-field hello">
          <h2>Contact me</h2>
@@ -350,9 +351,13 @@
        </div>
        <div class="input-field">
          <form action="https://formspree.io/f/mnqynlww" method="post">
+          <label for="Name" hidden="hidden">Name</label>
            <input class="input-design" type="text" name="full_name" id="full_name" placeholder="Enter your Name" maxlength="30" required>
+           <label for="Email" hidden="hidden">Email</label>
            <input class="input-design" type="email" name="email" id="email" placeholder="Email Address" required>
+           <label for="message" hidden="hidden">message</label>
            <textarea class="textArea" name="message"  cols="30" rows="10" minlength="" maxlength="500" placeholder="write your message here" required></textarea>
+           <label for="Submit" hidden="hidden">Submit</label>
            <input  type="submit" value="Get in touch" class="see-pro submit-btn">
          </form>
          <div class="bottom_line"></div> 
