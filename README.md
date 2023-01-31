@@ -121,7 +121,6 @@ To get a local copy up and running follow these simple example steps.
 
 - GitHub: [@Kel-nana](https://github.com/Kel-nana)
 - Linkedin: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
-  <<<<<<< HEAD
 - Twitter: [@kelvin-irungu](https://www.linkedin.com/in/kelvin-irungu-838923249/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -159,7 +158,7 @@ Share ideas on how to improve this project.
 
 
 
-# <<<<<<< HEAD
+# Microverse documentaion, Coding partner and the code reviewers
 
 
 
