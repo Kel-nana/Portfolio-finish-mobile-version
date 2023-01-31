@@ -73,7 +73,7 @@ Portfolio: desktop version Project is a Its a project meant to master my skills 
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+
 
 - **[make page responsive]**
 - **[contact form storage capability]**
@@ -85,7 +85,6 @@ Portfolio: desktop version Project is a Its a project meant to master my skills 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
 - [Live Demo Link](https://kel-nana.github.io/Portfolio-finish-mobile-version/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -131,7 +130,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+
 
 - [ ] **[Add dropdrown menu functionality]**
 - [ ] **[add button functionality]**
@@ -158,12 +157,11 @@ Share ideas on how to improve this project.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+
 
 # <<<<<<< HEAD
 
-> > > > > > > 71fd8824e4b286731a36c47fd8c04dbd5ab77f65
-> > > > > > > I would like to thank Microverse documentation and my team mates for all there resources and support.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,7 +169,7 @@ Share ideas on how to improve this project.
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+
 
 - **[Question_1]**
 
