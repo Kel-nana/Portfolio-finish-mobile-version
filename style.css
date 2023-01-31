@@ -21,6 +21,7 @@ header.logo-menu {
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   width: 375px;
   height: 46px;
   top: 0;
