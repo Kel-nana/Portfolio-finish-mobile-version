@@ -30,7 +30,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: add a contact form and finish the mobile version </b></h3>
+  <h3><b>Portfolio: desktop version </b></h3>
 
 </div>
 
@@ -42,6 +42,7 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+      - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -58,7 +59,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
 
-Portfolio: add a contact form and finish the mobile version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
+Portfolio: desktop version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -74,13 +75,20 @@ Portfolio: add a contact form and finish the mobile version Project is a Its a p
 
 > Describe between 1-3 key features of the application.
 
-- **[Requarement to fill all empty form areas]**
+- **[make page responsive]**
 - **[contact form storage capability]**
-- **[key_feature_3]**
+- **[addition of logo rotate on hover]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ## Getting Started
+<!-- LIVE DEMO -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> Add a link to your deployed project.
+- [Live Demo Link](https://kel-nana.github.io/Portfolio-finish-mobile-version/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 **This is an example of how you may give instructions on setting up your project locally.**
 
 To get a local copy up and running follow these simple example steps.
@@ -93,7 +101,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
-- git clone git@github.com:Kel-nana/Hello.git
+- git@github.com:Kel-nana/Portfolio-finish-mobile-version.git
 - cd Hello
 
 ### Usage
@@ -126,7 +134,7 @@ To get a local copy up and running follow these simple example steps.
 > Describe 1 - 3 features you will add to the project.
 
 - [ ] **[Add dropdrown menu functionality]**
-- [ ] **[Build the desktop version]**
+- [ ] **[add button functionality]**
 
 <!-- CONTRIBUTING -->
 
