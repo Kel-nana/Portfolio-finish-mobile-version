@@ -31,7 +31,7 @@ header.logo-menu {
   font-family: "Poppins", Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color:#0F27FF;
+  color: #0f27ff;
 }
 
 .bars {
@@ -168,7 +168,7 @@ section .container {
   font-weight: 600;
   font-size: 13px;
   list-style-type: none;
-  color: #4D5666;
+  color: #4d5666;
   padding-inline-start: 0;
 }
 
@@ -208,7 +208,7 @@ section .container {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #0018F5;
+  color: #0018f5;
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0;
@@ -347,7 +347,7 @@ section .container {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #142CFF;
+  color: #142cff;
   margin-left: 24px;
 }
 
