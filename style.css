@@ -11,8 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   background: #e5e5e5;
-  overflow-y: auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 header.logo-menu {
@@ -1068,7 +1067,7 @@ fieldset {
     align-items: center;
     width: 100vw;
     height: 846px;
-    background-image: url(./images/contactDSKT3.svg), url(./images/contactDSKT1.svg) !important;
+    background-image: url(./images/contactDSKT3.svg),  url(./images/contactDSKT1.svg) !important;
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: 100vw 105%;
