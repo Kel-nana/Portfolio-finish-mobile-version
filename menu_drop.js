@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
 // =======SELECTORS========
 const menu = document.querySelector('.bars');
@@ -36,3 +37,5 @@ slideIn.addEventListener('click', () => {
     elementz.style.display = 'none';
   });
 });
+
+const slide = 5;
