@@ -1,5 +1,6 @@
+/* eslint-disable linebreak-style */
+// =======SELECTORS========
 const menu = document.querySelector('.bars');
-
 const slideIn = document.querySelector('.header-desktop');
 const close = document.querySelector('.fa-xmark');
 const bottomLine = document.querySelector('.bottom_line');
@@ -10,8 +11,8 @@ menu.addEventListener('click', () => {
   slideIn.style.width = '100vw';
   bottomLine.style.display = 'block';
   close.style.display = 'block';
-  menuLink.forEach((element) => {
-    element.style.display = 'block';
+  menuLink.forEach((elementz) => {
+    elementz.style.display = 'block';
   });
 });
 
@@ -20,8 +21,8 @@ close.addEventListener('click', () => {
   slideIn.style.width = '0';
   bottomLine.style.display = 'none';
   close.style.display = 'none';
-  menuLink.forEach((element) => {
-    element.style.display = 'none';
+  menuLink.forEach((elementz) => {
+    elementz.style.display = 'none';
   });
 });
 
@@ -30,7 +31,8 @@ slideIn.addEventListener('click', () => {
   slideIn.style.width = '0';
   bottomLine.style.display = 'none';
   close.style.display = 'none';
-  menuLink.forEach((element) => {
-    element.style.display = 'none';
+  // eslint-disable-next-line arrow-parens
+  menuLink.forEach((elementz) => {
+    elementz.style.display = 'none';
   });
 });
