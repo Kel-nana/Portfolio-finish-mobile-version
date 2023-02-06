@@ -1,4 +1,5 @@
 const menu = document.querySelector('.bars');
+
 const slideIn = document.querySelector('.header-desktop');
 const close = document.querySelector('.fa-xmark');
 const bottomLine = document.querySelector('.bottom_line');
