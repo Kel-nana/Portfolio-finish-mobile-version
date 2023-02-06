@@ -20,23 +20,23 @@
 
     <header class="logo-menu">
       <div class="logo" onclick="window.location.href='index.html'">
-        <a href="index.html">Kelvin Irungu</a>
+        <a  href="#index.html">Kelvin Irungu</a>
       </div>
-      <nav class="fa fa-bars bars"></nav>
-      <div class="header-desktop">
+      <i class="fa fa-bars bars"></i>
+      <nav class="header-desktop">
         <i class="fa-solid fa-xmark "></i>
-        <p  class="menu_link portfolio_slide">Portfolio</p>
-        <p  class="menu_link menu-text about_slide">About</p>
-        <p  class="menu_link menu-text contact-slide">Contact</p>
+        <a class="menu_link portfolio_slide" href="#portfolio">Portfolio</a>
+        <a class="menu_link menu-text about_slide" href="#about">About</a>
+        <a class="menu_link menu-text contact-slide" href="#contact">Contact</a>
         <div class="bottom_line bottom_line_mobile"></div>      
-      </div>
-      <div class="header-desktop1">
+      </nav>
+      <nav class="header-desktop1">
         <i class="fa-solid fa-xmark1 "></i>
-        <p  class="menu_link1 portfolio_slide1">Portfolio</p>
-        <p  class="menu_link1 menu-text1 about_slide1">About</p>
-        <p  class="menu_link1 menu-text1 contact-slide1">Contact</p>
-        <div class="bottom_line1 bottom_line_mobile1"></div>      
-      </div>
+        <a class="menu_link1 portfolio_slide1" href="#portfolio">Portfolio</a>
+        <a class="menu_link1 menu-text1 about_slide1" href="#about">About</a>
+        <a class="menu_link1 menu-text1 contact-slide1" href="#contact">Contact</a>
+        <!-- <div class="bottom_line1 bottom_line_mobile1"></div>       -->
+      </nav>
     </header>
 
 <!-- ================MAIN=========== -->
@@ -99,7 +99,7 @@
       </section>
     
       <!-- =====TONIC-PAGE-==== -->
-      <section class=" container">
+      <section id="portfolio" class=" container">
         <div class="tonic1 tonic-container">
           <div class="image-tonic">
             <img class="img-tanne" src="./images/tanne.svg" alt="mobile tanne image" />
@@ -266,7 +266,7 @@
       </section>
     
     <!-- ==========ABOUT SECTION========== -->
-    <section class="about_section">
+    <section id="about" class="about_section">
       <div class="right-desktop">
         <div class="about">
           <h1>
@@ -352,7 +352,7 @@
     <!-- ============CONTACT-ME-FORM==========  -->
     <fieldset>
       <legend hidden="hidden">contact me</legend>
-      <section class="contact-me">
+      <section id="contact" class="contact-me">
        <div class="text-field hello">
          <h2>Contact me</h2>
          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
@@ -374,5 +374,6 @@
     </fieldset>
   </main>
   <script src="./menu_drop.js"></script>
+<script src="./pop_up.js"></script>
   </body>
 </html>
