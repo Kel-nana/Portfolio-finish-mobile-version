@@ -37,5 +37,3 @@ slideIn.addEventListener('click', () => {
     elementz.style.display = 'none';
   });
 });
-
-const slide = 5;
