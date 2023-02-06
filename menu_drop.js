@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable linebreak-style */
 // =======SELECTORS========
 const menu = document.querySelector('.bars');
