@@ -1,378 +1,250 @@
+!
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
     rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
-    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    />
+    <link rel="stylesheet" href="./style.css" />
+    
+    <script
+    src="https://kit.fontawesome.com/dea05e00a8.js"
     crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-    <title>Kelvin's Portfolio Website</title>
+    ></script>
+    <title>Kelvin Irungu</title>
   </head>
   <body>
-
-<!-- ================HEADER=========== -->
-
-    <header class="logo-menu">
-      <div class="logo" onclick="window.location.href='index.html'">
-        <a  href="#index.html">Kelvin Irungu</a>
-      </div>
-      <i class="fa fa-bars bars"></i>
-      <nav class="header-desktop">
-        <i class="fa-solid fa-xmark "></i>
-        <a class="menu_link portfolio_slide" href="#portfolio">Portfolio</a>
-        <a class="menu_link menu-text about_slide" href="#about">About</a>
-        <a class="menu_link menu-text contact-slide" href="#contact">Contact</a>
-        <div class="bottom_line bottom_line_mobile"></div>      
+    <header>
+      <a href="" class="logo animation-rotate">Irungu</a>
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" id="closeIcon"></i>
+          <ul id="navItems">
+            <li>
+              <a href="#portfolio">Portfolio</a>
+            </li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" id="menuBar"></i>
       </nav>
-      <nav class="header-desktop1">
-        <i class="fa-solid fa-xmark1 "></i>
-        <a class="menu_link1 portfolio_slide1" href="#portfolio">Portfolio</a>
-        <a class="menu_link1 menu-text1 about_slide1" href="#about">About</a>
-        <a class="menu_link1 menu-text1 contact-slide1" href="#contact">Contact</a>
+      <nav>
+        <ul class="nav-bar">
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
-<!-- ================MAIN=========== -->
+    <!-- =========LANDING PAGE=========== -->
+    <section class="headline-section">
+      <h1>
+        I’m Irungu, <br />
+        Glad to see you!
+      </h1>
+      <p class="move-text">
+        I’m a software developer! I can help you build a product, feature or
+        website. Look through some of my work and experience! If you like what
+        you see and have a project you need coded, don’t hesitate to contact me.
+      </p>
+      <p class="animation-slide">LET'S CONNECT</p>
+      <ul class="header-icons">
+        <li>
+          <a href="https://twitter.com/home?lang=en"
+            ><img src="images/twitter.svg" alt="Twitter Icon"
+          /></a>
+        </li>
+        <li>
+          <a href="https://https://www.linkedin.com/in/kelvin-irungu-838923249/"
+            ><img src="./images/Linkedin icon.svg" alt="LinkedIn Icon"
+          /></a>
+        </li>
+        <li>
+          <a href=""><img src="images/m-logo.svg" alt="M Logo Icon" /></a>
+        </li>
+        <li>
+          <a href="https://github.com/Kel-nana"
+            ><img src="./images/github-icon.svg" alt="GitHub Icon"
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img src="./images/hand-peace-icon.svg" alt="Peace Sign Icon"
+          /></a>
+        </li>
+      </ul>
+    </section>
 
-    <main id="main-container-desktop" class="main-container-desktop">
+   <!-- ===========MAIN CONTAINER========== -->
+    <div id="portfolio" class="works"></div>
 
-      <!-- ================LANDING-PAGE=========== -->
-
-      <section class="titleText">
-        <div class="main-container desktop-main class">
-          <div class="title-lp">
-            <h1>I’m Mariane Glad to see you!</h1>
-          </div>
-          <div class="title-desktop">
-            <h1>I’m Alexandra <br>
-              Glad to see you!</h1>
-          </div>
-          <div class="titletext">
-            <p>
-              I’m a software developer! I can help you build a product , feature
-              or website Look through some of my work and experience! If you
-              like what you see and have a project you need coded, don’t
-              hestiate to contact me.
-            </p>
-          </div>
-
-          <div class="connect-about">
-            <h2>LET'S CONNECT</h2>
-          </div>
-          <div id="footer-icon" class="footer-icons-about">
-            <ul>
-              <li>
-                <a href="#footer-icon">
-                  <img src="./images/twitter (2).svg" alt="twitter logo" />
-                </a>
-              </li>
-              <li>
-                <a href="#footer-icon">
-                  <img src="./images/Linkedin icon.svg" alt="linkedin" />
-                </a>
-              </li>
-              <li>
-                <a href="#footer-icon"
-                  ><img src="./images/m-icon.svg" alt="m logo"
-                /></a>
-              </li>
-              <li>
-                <a href="#footer-icon"
-                  ><img src="./images/github-icon.svg" alt="github logo"
-                /></a>
-              </li>
-              <li>
-                <a href="#footer-icon"
-                  ><img src="./images/hand-peace-icon.svg" alt="peace logo"
-                /></a>
-              </li>
-            </ul>
-          </div>
+    <!-- ===============MODAL WINDOW=============   -->
+    <article class="modal" id="modal">
+      <div class="modal-header">
+        <h2 class="title"></h2>
+        <div class="subtitle">
+          <h3>CANOPY</h3>
+          <img src="images/counter.svg" alt="Counter icon" />
+          <h3 class="light-text">Back End Dev</h3>
+          <img src="images/counter.svg" alt="Counter icon" />
+          <h3 class="light-text">2015</h3>
         </div>
-      </section>
-    
-      <!-- =====TONIC-PAGE-==== -->
-      <section id="portfolio" class=" container card">
-        <div class="tonic1 tonic-container">
-          <div class="image-tonic">
-            <img class="img-tanne" src="./images/tanne.svg" alt="mobile tanne image" />
-            <img class="img-tanneDSKT" src="./images/SnapshootPortfolio.svg" alt="desktop tanne image" />
-          </div>
-
-          <div class="left">
-
-            <div>
-              <h1 class="tonic-title">Tonic</hi>
-            </div>
-            <div class="counter">
-              <span>CANOPY</span>
-              <ul>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" /> Back
-                  End Dev
-                </li>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" />2015
-                </li>
-              </ul>
-            </div>
-            <div class="tonic-para">
-              <p>
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-            </div>
-            <div class="list-skills">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button type="button" class="see-pro">See Project</button>
-          </div>
-          </div>
+        <button data-close-button class="close-btn" type="button">
+          &times;
+        </button>
       </div>
-      <!-- ===========AVAILABILITY/MULTI PAGE========== -->
-      <div class="tonic2 card">
-        <div class="tonic-container tonic-container-desktop">
-          <div class="image-tonic">
-            <img class="img-tanne" src="./images/availability.svg" alt="mobile availability image" />
-            <img class="img-tanneDSKT" src="./images/tonic2.svg" alt="desktop availability  image" />
-          </div>
-          <div class="left desktop-left">
-
-            <div>
-              <h2 class="tonic-title">Multi-post Stories</h2>
-            </div>
-            <div class="counter">
-              <span>CANOPY</span>
-              <ul>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" /> Back
-                  End Dev
-                </li>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" />2015
-                </li>
-              </ul>
-            </div>
-            <div class="tonic-para">
-              <p>
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-            </div>
-            <div class="list-skills">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button type="button" class="see-pro">See Project</button>
-          </div>
-          </div>
-      </div>
-      <!-- ========GYM-FIT============================ -->
-      <div class="tonic3 card">
-        <div class="tonic-container">
-          <div class="image-tonic">
-              <img class="img-tanne" src="./images/gymfit.svg" alt="mobbile gymfit image" />
-            <img class="img-tanneDSKT" src="./images/tonic3.svg" alt="desktop gymfit image" />
-          </div>
-          <div class="left">
-
-            <div>
-              <h2 class="tonic-title">Tonic</h2>
-            </div>
-            <div class="counter">
-              <span>CANOPY</span>
-              <ul>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" /> Back
-                  End Dev
-                </li>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" />2015
-                </li>
-              </ul>
-            </div>
-            <div class="tonic-para">
-              <p>
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-            </div>
-            <div class="list-skills">
-              <ul> 
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button type="button" class="see-pro">See Project</button>
-          </div>
-          </div>
-      </div>
-      <!-- ======MULTI-POST STORIES======== -->
-      <div class="tonic4 card">
-        <div class="tonic-container tonic-container-desktop">
-          <div class="image-tonic">
-              <img class="img-tanne" src="./images/tonicSmall.svg" alt="mobile tonic image" />
-            <img class="img-tanneDSKT" src="./images/tonic4.svg" alt="desktop tonic image" />
-          </div>
-          <div class="left desktop-left">
-
-            <div>
-              <h2 class="tonic-title">Multi-Post Stories</h2>
-            </div>
-            <div class="counter">
-              <span>CANOPY</span>
-              <ul>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" /> Back
-                  End Dev
-                </li>
-                <li>
-                  <img class="img-circle" src="./images/Counter.svg" alt="list icon" />2015
-                </li>
-              </ul>
-            </div>
-            <div class="tonic-para">
-              <p>
-                A daily selection of privately personalized reads; no accounts or
-                sign-ups required.
-              </p>
-            </div>
-            <div class="list-skills">
-              <ul>
-                <li>html</li>
-                <li>css</li>
-                <li>javaScript</li>
-              </ul>
-            </div>
-            <button type="button" class="see-pro">See Project</button>
-          </div>
-          </div>
-      </div>
-      </section>
-    
-    <!-- ==========ABOUT SECTION========== -->
-    <section id="about" class="about_section">
-      <div class="right-desktop">
-        <div class="about">
-          <h1>
-            About <br />
-            Myself
-          </h1>
+      <div class="modal-body">
+        <img src="images/popup-tonic.svg" class="modal-img" alt="" />
+        <div class="modal-desc">
+          <p></p>
+          <ul class="modal-categories"></ul>
         </div>
-        <div class="hello hide-overflow">
-          <p >
-            Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If
-            you like what you see and have a project you need coded, don’t
-            hestiate to contact me.
-          </p>
-        </div>
-        <div class="connect-about">
-          <h2>LET'S CONNECT</h2>
-        </div>
-        <div id="footer-icon" class="footer-icons-about">
+      </div>
+      <div class="modal-buttons">
+        <button class="modal-btn live-btn" type="button">
+          See Live
+          <img class="btn-img" src="images/btn-Icon-live.svg" alt="" />
+        </button>
+        <button class="modal-btn code-btn" type="button">
+          See Code
+          <img class="btn-img" src="images/btn-icon-source.svg" alt="" />
+        </button>
+      </div>
+    </article>
+    <div id="overlay"></div>
+
+  <!-- =============ABOUT SECTION===================== -->
+    <section id="about" class="about-section">
+      <div class="about-items">
+        <h2>
+          About <br />
+          Myself
+        </h2>
+        <p class="para-mobile">
+          I’m a software developer! <br />
+          I can help you build a product, feature or website. Look through some
+          of my work and experience! If you like what you see and
+          <br />
+          have a project you need coded, <br />
+          don’t hesitate to contact me.
+        </p>
+        <p class="para-desk text-scale">
+          I’m a software developer! I can help you build a product, feature or
+          website. Look through some of my work and experience! If you like what
+          you see and have a project you need coded, don’t hesitate to contact
+          me.
+        </p>
+        <p>LET'S CONNECT</p>
+        <ul class="icon-list">
+          <li>
+            <a href="https://twitter.com/shaquillendunda"
+              ><img src="./images/twitter (2).svg" alt="Twitter Icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/shaquille-ndunda-b13a95107/"
+              ><img src="images/linkedinicon.svg" alt="LinkedIn Icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""><img src="images/m-logo.svg" alt="M Logo Icon" /></a>
+          </li>
+          <li>
+            <a href="https://github.com/shaqdeff"
+              ><img src="images/github.svg" alt="GitHub Icon"
+            /></a>
+          </li>
+          <li>
+            <a href=""
+              ><img src="images/peace-sign.svg" alt="Peace Sign Icon"
+            /></a>
+          </li>
+        </ul>
+        <button class="btn btn-about" type="button">Get my resume</button>
+      </div>
+      <div class="skills-container">
+        <span class="language-title">
+          Languages
+          <i class="fa fa-angle-down"></i>
+        </span>
+        <ul class="language-list">
+          <li><img src="images/javascript.svg" alt="" />JavaScript</li>
+          <li><img src="images/html.svg" alt="" />HTML</li>
+          <li><img src="images/css.svg" alt="" />CSS</li>
+        </ul>
+        <span class="frameworks-title">
+          Frameworks
+          <i class="fa fa-angle-right"></i>
+        </span>
+        <hr class="solid" />
+        <span class="skills-title">
+          Skills
+          <i class="fa fa-angle-right"></i>
+        </span>
+        <hr class="solid" />
+      </div>
+    </section>
+
+    <!-- Contact Form -->
+    <footer id="contact" class="form-container">
+      <section class="contact-form">
+        <h2>Contact me</h2>
+        <p class="para-mobile">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it.
+        </p>
+        <p class="para-desk text-scale">
+          If you have an application you are interested in developing, a feature
+          that you need built or a project that needs coding. I’d love to help
+          with it.
+        </p>
+        <form action="https://formspree.io/f/meqnrqjw" method="POST" id="form">
           <ul>
             <li>
-              <a href="#footer-icon">
-                <img src="./images/github-icon.svg" alt="github logo" />
-              </a>
-            </li>
-            <li>
-              <a href="#footer-icon">
-                <img src="./images/Linkedin icon.svg" alt="Linkedin logo"
+              <input
+                type="text"
+                name="name"
+                placeholder="Full name"
+                required
+                maxlength="30"
+                id="name"
               />
-              </a>
             </li>
             <li>
-              <a href="#footer-icon"
-                ><img src="./images/hand-peace-icon.svg" alt="peace logo"
-              /></a>
+              <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                id="email"
+              />
             </li>
             <li>
-              <a href="#footer-icon"
-                ><img src="./images/twitter (2).svg" alt="twitter logo"
-              /></a>
-            </li>
-            <li>
-              <a href="#footer-icon"
-                ><img src="./images/m-icon.svg" alt="m logo"
-              /></a>
+              <textarea
+               placeholder="Write your message here"
+                required
+                maxlength="500"
+                id="contact-message"
+              ></textarea>
             </li>
           </ul>
-        </div>        
-          <button  id="btn-get" class="see-pro .btn">Get my resume</button>
-      </div>
-       <div class="desktopV">
-
-         <div class="frame-lang">
-           <p class="language">Languages</p>
-           <img src="./images/Icon-Right-Larger.svg" alt="pointer icon" />
-         </div>
-         <div class="list-skills-about">
-           <ul>
-             <li>
-              <img class="img-tanne" src="./images/javascript.svg" alt="javaScript image" />
-            <img class="img-tanneDSKT skill-icon" src="./images/JSdesktopAbout.svg" alt="javaScript icon" />
-             </li>
-             <li>
-              <img class="img-tanne" src="./images/html.svg" alt="html image" />
-            <img class="img-tanneDSKT skill-icon" src="./images/HTMLdesktopAbout.svg" alt="html icon" />
-            </li>
-             <li>
-              <img class="img-tanne" src="./images/css.svg" alt="css image" />
-            <img class="img-tanneDSKT skill-icon" src="./images/CSSdesktopAbout.svg" alt="css icon" />
-           </ul>
-         </div>
-         <div class="frame">
-           <p>Frameworks</p>
-           <img src="./images/Icon-Right-Larger.svg" alt="pointer icon" />
-         </div>
-         <div class="frame">
-           <p class="skill-desktop">Skills</p>
-           <img src="./images/Icon-Right-Larger.svg" alt="pointer icon" />
-         </div>
-       </section>
-
-       </div>
-    <!-- ============CONTACT-ME-FORM==========  -->
-    <fieldset>
-      <legend hidden="hidden">contact me</legend>
-      <section id="contact" class="contact-me">
-       <div class="text-field hello">
-         <h2>Contact me</h2>
-         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
-       </div>
-       <div class="input-field">
-         <form action="https://formspree.io/f/mnqynlww" method="post">
-          <label for="Name" hidden="hidden">Name</label>
-           <input class="input-design" type="text" name="full_name" id="full_name" placeholder="Enter your Name" maxlength="30" required>
-           <label for="Email" hidden="hidden">Email</label>
-           <input class="input-design" type="email" name="email" id="email" placeholder="Email Address" required>
-           <label for="message" hidden="hidden">message</label>
-           <textarea class="textArea" name="message"  cols="30" rows="10" minlength="" maxlength="500" placeholder="write your message here" required></textarea>
-           <label for="Submit" hidden="hidden">Submit</label>
-           <input  type="submit" value="Get in touch" class="see-pro submit-btn">
-         </form>
-         <div class="bottom_line"></div> 
-       </div>
+          <span id="err-msg"></span>
+          <button class="btn btn-contact" type="submit">Get In Touch</button>
+        </form>
       </section>
-    </fieldset>
-  </main>
-  <script src="./menu_drop.js"></script>
-<script src="./pop_up.js"></script>
+    </footer>
+    <script src="/menu_drop.js"></script>
+    <script src="./pop_up.js"></script>
   </body>
 </html>
