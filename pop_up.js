@@ -51,3 +51,6 @@ const projectCards = [
         specifics2: ['UBER', 'Lead Developer', '2018'],
     },
 ];
+
+const portfolioSection = document.getElementById('main-container-desktop');
+portfolioSection.innerHTML = projectCards.map((project, index) => { }); 
