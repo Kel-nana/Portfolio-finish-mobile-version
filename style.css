@@ -543,7 +543,7 @@ fieldset {
 
 /* ======HIDE DIV======== */
 .header-desktop {
-  position: fixed;
+  position: absolute;
   width: 0;
   height: 816px;
   top: 0;
