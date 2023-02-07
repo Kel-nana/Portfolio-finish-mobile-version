@@ -629,6 +629,9 @@ fieldset {
     text-decoration: none;
   }
 
+  /* #main-container-desktop{
+    display: none;
+  } */
   .logo {
     display: flex;
     justify-content: center;
