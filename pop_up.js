@@ -4,8 +4,8 @@ const projectCards = [
         card: 1,
         name: 'Tonic',
         name2: 'Tonic',
-        image: 'images/tonic1.svg',
-        image2: 'images/nature.svg',
+        image: 'images/tanne.svg',
+        image2: 'images/SnapshootPortfolio.svg',
         description: `A daily selection of privately personalized reads; no accounts or
                             sign-ups required.`,
         technologies: ['html', 'css', 'javascript'],
@@ -17,7 +17,7 @@ const projectCards = [
         name: 'Multi-Post Stories',
         name2: 'Multi-Post Stories',
         image: 'images/availability.svg',
-        image2: 'images/multipost.svg',
+        image2: 'images/tonic2.svg',
         description: `Experimental content creation feature that allows users to add to
                             an existing story over the course of a day without spamming their
                             friends.`,
@@ -29,8 +29,8 @@ const projectCards = [
         card: 3,
         name: 'Tonic',
         name2: 'Facebook 360',
-        image: 'images/tonic2.svg',
-        image2: 'images/facebook.svg',
+        image: 'images/gymfit.svg',
+        image2: 'images/tonic3.svg',
         description: ` Exploring the future of media in Facebook's first Virtual Reality
                             app; a place to discover and enjoy 360 photos and videos on Gear
                             VR.`,
@@ -42,8 +42,8 @@ const projectCards = [
         card: 4,
         name: 'Multi-Post Stories',
         name2: 'Uber Navigation',
-        image: 'images/profprint.svg',
-        image2: 'images/uber.svg',
+        image: 'images/tonicSmall.svg',
+        image2: 'images/tonic4.svg',
         description: `  A smart assistant to make driving more safe, efficient, and fun by
                             unlocking your most expensive computer: your car.`,
         technologies: ['html', 'css', 'javascript'],
