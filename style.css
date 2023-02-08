@@ -270,7 +270,6 @@ nav .fa-bars {
   display: flex;
   flex-direction: column;
   margin-top: 10rem;
-  margin-left: 20%;
   height: 80%;
   width: 80vw;
 }
@@ -551,11 +550,9 @@ nav .fa-bars {
   gap: 7%;
   align-content: flex-start;
   position: relative;
-  right: 3rem;
   bottom: 9rem;
   border-bottom: 2px solid #ebecf0;
-  padding-bottom: 1rem;
-  padding-right: 1rem;
+  padding: 4px 12px;
   width: 650px;
   max-width: 100%;
 }
@@ -593,8 +590,13 @@ nav .fa-bars {
 }
 
 #btn-width {
-  width: 142px;
+  width: 130px;
   height: 40px;
+}
+
+.live-btn {
+  left: 4px;
+  margin-right: 10px;
 }
 
 .modal-btn:hover {
@@ -620,7 +622,7 @@ nav .fa-bars {
   right: 0;
   bottom: 0;
   background-image: url(./images/HeaderBgDesktop.svg);
-  background-color: rgba(255, 255, 255, 0.336);
+  background-color: #c1c7d075;
   backdrop-filter: blur(5px);
   pointer-events: none;
 }
@@ -1035,7 +1037,6 @@ textarea {
     flex-direction: row;
     border-radius: 32px;
     margin-bottom: 5rem;
-    /* margin-left: 18vw; */
     transition: 0.4s;
   }
 
@@ -1150,6 +1151,11 @@ textarea {
     padding: 1px 3.5px;
   }
 
+  #btn-width {
+    width: 9.861vw;
+    height: 40px;
+  }
+
   .btn {
     font-size: 1.7rem;
     left: -0.5rem;
@@ -1206,7 +1212,7 @@ textarea {
     background: var(--body-color);
     width: 115.6rem;
     max-width: 80%;
-    height: 116.3rem;
+    height: 50.3rem;
     max-height: 87%;
     overflow-y: auto;
   }
@@ -1280,6 +1286,7 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    height: 426px;
   }
 
   .modal-desc p {
@@ -1287,6 +1294,7 @@ textarea {
     position: relative;
     bottom: 6rem;
     padding: 4.5rem;
+    margin-top: 59px;
   }
 
   .modal-categories {
@@ -1299,9 +1307,12 @@ textarea {
     position: relative;
     bottom: 0.3rem;
     border-bottom: 2px solid #ebecf0;
-    padding-bottom: 1rem;
+    padding: 4px 12px;
+    padding-left: 0;
+    padding-bottom: 120px;
     height: 10%;
-    width: 28%;
+    width: 22%;
+    margin-top: 59px;
   }
 
   .modal-categories li {
@@ -1317,7 +1328,7 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 20px;
+    gap: 40px;
     margin-left: 6.5rem;
   }
 
@@ -1334,9 +1345,10 @@ textarea {
     padding: 1rem 0.3rem;
     position: relative;
     bottom: 30rem;
-    right: 5rem;
+    top: -220px;
+    right: 2.014vw;
     text-align: center;
-    width: 12%;
+    width: 9.861vw;
     white-space: normal;
     display: flex;
     flex-direction: row;
@@ -1347,6 +1359,10 @@ textarea {
     transition: background 0.4s ease-in;
   }
 
+  .live-btn {
+    top: -220px;
+  }
+  
   .modal-btn:hover {
     background: var(--primary-color);
     box-shadow: 3px 6px 16px rgba(64, 83, 252, 0.24);

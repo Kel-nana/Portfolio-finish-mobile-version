@@ -134,7 +134,7 @@ const portfolio = [
               industry's standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
-    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
     codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
@@ -158,7 +158,7 @@ const portfolio = [
               industry's standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
-    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
     codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
@@ -182,7 +182,7 @@ const portfolio = [
               industry's standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
-    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
     codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
@@ -206,7 +206,7 @@ const portfolio = [
               industry's standard dummy text ever since the 1500s, when an
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
-    technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    technologies: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
     codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
