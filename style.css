@@ -1077,7 +1077,10 @@ textarea {
     top: 6rem;
     width: 75%;
   }
-
+.dotimage {
+   width: 8px !important;
+   height: 8px !important;
+}
   .subtitle__desk {
     gap: 0.7vw;
     display: flex;
