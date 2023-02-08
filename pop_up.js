@@ -110,6 +110,8 @@ const titleModal = document.querySelector('.title');
 const imageModal = document.querySelector('.modal-img');
 const descriptionModal = document.querySelector('.modal-desc p');
 const categoriesModal = document.querySelector('.modal-categories');
+const liveBtn = document.querySelector('.live-btn');
+const codeBtn = document.querySelector('.code-btn');
 
 const portfolio = [
   {
@@ -133,6 +135,8 @@ const portfolio = [
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
+    codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
   {
     name: 'Multi-Post Stories',
@@ -155,6 +159,8 @@ const portfolio = [
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
+    codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
   {
     name: 'Facebook 360',
@@ -177,6 +183,8 @@ const portfolio = [
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
+    codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
   {
     name: 'Uber Navigation',
@@ -199,6 +207,8 @@ const portfolio = [
               unknown printer took a galley of type and scrambled it 1960s
               with the release.`,
     technologies: ['html', 'css', 'javascript', 'bootstrap', 'ruby', 'github'],
+    liveButton: 'https://kel-nana.github.io/Portfolio-finish-mobile-version/',
+    codeButton: 'https://github.com/Kel-nana/Portfolio-finish-mobile-version',
   },
 ];
 
@@ -213,6 +223,8 @@ function windowModelUpdate(index) {
     li.innerText = technology;
     categoriesModal.appendChild(li);
   });
+  liveBtn.href = portfolio[index].liveButton;
+  codeBtn.href = portfolio[index].codeButton;
 }
 
 function openModal(modal) {
