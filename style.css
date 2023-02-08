@@ -1035,7 +1035,7 @@ textarea {
     flex-direction: row;
     border-radius: 32px;
     margin-bottom: 5rem;
-    margin-left: 18vw;
+    /* margin-left: 18vw; */
     transition: 0.4s;
   }
 
