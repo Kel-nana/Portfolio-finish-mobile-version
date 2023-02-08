@@ -1362,7 +1362,7 @@ textarea {
   .live-btn {
     top: -220px;
   }
-  
+
   .modal-btn:hover {
     background: var(--primary-color);
     box-shadow: 3px 6px 16px rgba(64, 83, 252, 0.24);
