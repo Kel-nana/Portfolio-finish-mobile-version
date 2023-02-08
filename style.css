@@ -999,7 +999,7 @@ textarea {
     background-position: center;
     background-size: 100% 99%;
     border-bottom-left-radius: 175px;
-    width: 100vw;
+    width: 118vw;
   }
 
   .headline-section h1 {
@@ -1035,6 +1035,7 @@ textarea {
     flex-direction: row;
     border-radius: 32px;
     margin-bottom: 5rem;
+    margin-left: 18vw;
     transition: 0.4s;
   }
 
@@ -1077,18 +1078,22 @@ textarea {
     top: 6rem;
     width: 75%;
   }
-.dotimage {
-   width: 8px !important;
-   height: 8px !important;
-}
+
   .subtitle__desk {
     gap: 0.7vw;
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: relative;
     left: 1.2rem;
     bottom: 5rem;
     width: 75%;
+  }
+
+  .subtitle__desk img {
+    width: 8px !important;
+    height: 8px !important;
   }
 
   .card__subtitle3 {

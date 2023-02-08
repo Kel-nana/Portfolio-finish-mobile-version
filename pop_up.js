@@ -35,7 +35,7 @@ const projectCards = [
                             VR.`,
     technologies: ['html', 'css', 'javascript'],
     specifics: ['CANOPY', 'Back End Dev', '2015'],
-    specifics2: ['FACEBOOK', 'Full Sta ck Dev', '2015'],
+    specifics2: ['FACEBOOK', 'Full Stack Dev', '2015'],
   },
   {
     card: 4,
