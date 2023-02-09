@@ -57,9 +57,10 @@ After you're finished please remove all the comments and instructions!
 - [📝 License](#license)
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: add a contact form and finish the mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: Pop up window
+] <a name="about-project"></a>
 
-Portfolio: desktop version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub.
+Portfolio: desktop version Project is a Its a project meant to master my skills in version control, GitHub flow, pull requests in GitHub and JavaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -68,6 +69,7 @@ Portfolio: desktop version Project is a Its a project meant to master my skills 
 - HTML & CSS
 - Linters
 - Git & Github
+- JavaScript
 
 <!-- Features -->
 
@@ -75,7 +77,7 @@ Portfolio: desktop version Project is a Its a project meant to master my skills 
 
 
 
-- **[make page responsive]**
+- **[Pop up window]**
 - **[contact form storage capability]**
 - **[addition of logo rotate on hover]**
 
@@ -132,7 +134,7 @@ To get a local copy up and running follow these simple example steps.
 
 
 - [ ] **[Add dropdrown menu functionality]**
-- [ ] **[add button functionality]**
+- [ ] **[add everything dynamically]**
 
 <!-- CONTRIBUTING -->
 
