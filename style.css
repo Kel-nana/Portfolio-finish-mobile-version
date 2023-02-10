@@ -281,7 +281,7 @@ nav .fa-bars {
   height: 80%;
 }
 
-.popup{
+.popup {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -292,7 +292,7 @@ nav .fa-bars {
 
 .popup p {
   display: none;
-  font-size: 12px ;
+  font-size: 12px;
   padding: 2px 10px;
   width: 100vw;
   height: 30px;
@@ -1558,7 +1558,7 @@ textarea {
     letter-spacing: 0.05rem;
   }
 
-  .popup{
+  .popup {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1568,7 +1568,7 @@ textarea {
 
   .popup p {
     display: none;
-    font-size: 16px ;
+    font-size: 1.111vw;
     padding: 2px 10px;
     width: 30vw;
     height: 30px;
@@ -1576,27 +1576,6 @@ textarea {
     border-radius: 10px;
     border: 2px solid transparent;
     overflow: hidden;
-  }
-
-  .test::before {
-position: absolute;
-top: -50%;
-left: 50%;
-width: 35vw;
-height: 20px;
-background: linear-gradient(0deg, rgba(46,64,107,1) 0%, rgba(255,255,255,1) 52%);
-transform-origin: bottom right;
-animation: animated 6s linear infinite;
-  }
-
-  @keyframes animated {
-
-    0% {
-      transform: rotate(0deg);
-    }
-    100% {
-      transform: rotate(360deg);
-    }
   }
 
   .contact-form .para-desk {
